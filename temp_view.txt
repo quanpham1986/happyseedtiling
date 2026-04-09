@@ -1,0 +1,223 @@
+1: <!DOCTYPE html>
+2: <html lang="en-AU">
+3: <head>
+4:     <meta charset="UTF-8">
+5:     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+6:     <title>Happy Seed Tiling | Premium Tiler</title>
+7:     <style>
+8:         :root {
+9:             --bg-color: #080808;
+10:             --text-color: #ffffff;
+11:             --accent-color: #ccff00; /* Neon yellow/green */
+12:             --gray: #888888;
+13:         }
+14:         body {
+15:             background-color: var(--bg-color);
+16:             color: var(--text-color);
+17:             font-family: 'Arial', sans-serif;
+18:             margin: 0;
+19:             padding: 0;
+20:             overflow-x: hidden;
+21:         }
+22:         /* Header */
+23:         header {
+24:             display: flex;
+25:             justify-content: space-between;
+26:             align-items: center;
+27:             padding: 20px 50px;
+28:             border-bottom: 1px solid #222;
+29:         }
+30:         .logo {
+31:             font-size: 24px;
+32:             font-weight: bold;
+33:             display: flex;
+34:             align-items: center;
+35:         }
+36:         .logo span { color: var(--accent-color); margin-right: 10px; font-size: 30px; }
+37:         nav a {
+38:             color: var(--text-color);
+39:             text-decoration: none;
+40:             margin: 0 15px;
+41:             font-size: 12px;
+42:             text-transform: uppercase;
+43:             letter-spacing: 2px;
+44:         }
+45:         nav a:hover { color: var(--accent-color); }
+46:         .btn-talk {
+47:             background-color: var(--accent-color);
+48:             color: #000;
+49:             padding: 10px 25px;
+50:             text-decoration: none;
+51:             font-weight: bold;
+52:             border-radius: 5px;
+53:             font-size: 14px;
+54:         }
+55:         
+56:         /* Hero Section */
+57:         .hero {
+58:             display: flex;
+59:             justify-content: space-between;
+60:             align-items: center;
+61:             padding: 50px;
+62:             min-height: 70vh;
+63:             position: relative;
+64:         }
+65:         .hero-text { flex: 1; }
+66:         .hero-text h3 {
+67:             color: var(--gray);
+68:             font-weight: normal;
+69:             margin-bottom: 20px;
+70:         }
+71:         .hero-text h1 {
+72:             font-size: 5rem;
+73:             line-height: 1.1;
+74:             margin: 0;
+75:             font-weight: 800;
+76:         }
+77:         .hero-image {
+78:             flex: 1;
+79:             text-align: right;
+80:             position: relative;
+81:         }
+82:         .hero-image img {
+83:             max-width: 400px;
+84:             border-radius: 10px;
+85:             border: 2px solid #333;
+86:             box-shadow: 0 0 30px rgba(204, 255, 0, 0.1);
+87:         }
+88:         
+89:         /* Marquee Ticker */
+90:         .marquee-wrapper {
+91:             background-color: var(--accent-color);
+92:             padding: 15px 0;
+93:             overflow: hidden;
+94:             position: relative;
+95:             width: 100vw;
+96:             display: flex;
+97:         }
+98:         .marquee {
+99:             white-space: nowrap;
+100:             color: #000;
+101:             font-weight: bold;
+102:             font-size: 20px;
+103:             animation: scroll 20s linear infinite;
+104:         }
+105:         @keyframes scroll {
+106:             0% { transform: translateX(100vw); }
+107:             100% { transform: translateX(-100%); }
+108:         }
+109:         
+110:         /* Portfolio Section */
+111:         .portfolio {
+112:             padding: 80px 50px;
+113:         }
+114:         .portfolio-title {
+115:             font-size: 3rem;
+116:             margin-bottom: 50px;
+117:         }
+118:         .portfolio-title span { color: var(--accent-color); }
+119:         
+120:         .project-group {
+121:             margin-bottom: 60px;
+122:             background: #111;
+123:             padding: 30px;
+124:             border-radius: 15px;
+125:             border-left: 5px solid var(--accent-color);
+126:         }
+127:         .project-group h3 {
+128:             margin-top: 0;
+129:             font-size: 2rem;
+130:             color: var(--accent-color);
+131:         }
+132:         .project-group p { color: var(--gray); margin-bottom: 20px; }
+133:         
+134:         .gallery {
+135:             display: grid;
+136:             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+137:             gap: 20px;
+138:         }
+139:         .gallery img {
+140:             width: 100%;
+141:             height: 300px;
+142:             object-fit: cover;
+143:             border-radius: 10px;
+144:             transition: transform 0.3s ease;
+145:         }
+146:         .gallery img:hover {
+147:             transform: translateY(-10px);
+148:             box-shadow: 0 10px 20px rgba(204, 255, 0, 0.2);
+149:         }
+150: 
+151:         /* Footer */
+152:         footer {
+153:             text-align: center;
+154:             padding: 30px;
+155:             border-top: 1px solid #222;
+156:             color: var(--gray);
+157:         }
+158:     </style>
+159: </head>
+160: <body>
+161: 
+162:     <header>
+163:         <div class="logo"><span>&#9650;</span> HappySeed</div>
+164:         <nav>
+165:             <a href="#home">Home</a>
+166:             <a href="#works">Works</a>
+167:             <a href="#services">Services</a>
+168:             <a href="#contact">Contact</a>
+169:         </nav>
+170:         <a href="tel:0491754808" class="btn-talk">Let's Talk &rarr;</a>
+171:     </header>
+172: 
+173:     <div class="hero" id="home">
+174:         <div class="hero-text">
+175:             <h3>Currently available for projects in<br>Bunbury & South West WA &#x2197;</h3>
+176:             <h1>Premium<br>Tiling<br>Specialist</h1>
+177:             <p style="color: var(--gray); margin-top: 30px; max-width: 400px;">
+178:                 Specializing in flawless bathroom renovations, large format floor tiling, and meticulous mitre cuts. Fully insured.
+179:             </p>
+180:         </div>
+181:         <div class="hero-image">
+182: <HUGE BASE64 IMAGE LINE SKIPPED>
+183:         </div>
+184:     </div>
+185: 
+186:     <div class="marquee-wrapper">
+187:         <div class="marquee">
+188:             * Floor & Wall Tiling &nbsp;&nbsp; * Bathroom Renovations &nbsp;&nbsp; * Screeding & Waterproofing &nbsp;&nbsp; * Large Format Tiles &nbsp;&nbsp; * Mitre Cuts &nbsp;&nbsp; * Fully Insured
+189:         </div>
+190:     </div>
+191: 
+192:     <div class="portfolio" id="works">
+193:         <h2 class="portfolio-title">Recent <span>Works</span></h2>
+194:         
+195:         <!-- Project 1 -->
+196:         <div class="project-group">
+197:             <h3>Cowaramup Project</h3>
+198:             <p>Complete Bathroom Renovation • Floor & Wall Tiling • Surf Break Drive, Cowaramup</p>
+199:             <div class="gallery">
+200: <HUGE BASE64 IMAGE LINE SKIPPED>
+201: <HUGE BASE64 IMAGE LINE SKIPPED>
+202: <HUGE BASE64 IMAGE LINE SKIPPED>
+203:             </div>
+204:         </div>
+205: 
+206:         <!-- Project 2 -->
+207:         <div class="project-group">
+208:             <h3>31 San Macro - Chloe</h3>
+209:             <p>Main Floor Tiling & Prep Work</p>
+210:             <div class="gallery">
+211: <HUGE BASE64 IMAGE LINE SKIPPED>
+212: <HUGE BASE64 IMAGE LINE SKIPPED>
+213:             </div>
+214:         </div>
+215:     </div>
+216: 
+217:     <footer>
+218:         <p>Happy Seed Tiling | ABN: 22 876 090 206 | Bunbury, WA 6232</p>
+219:     </footer>
+220: 
+221: </body>
+222: </html>
+223: 
