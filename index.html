@@ -235,6 +235,31 @@
         }
         .project-card:hover .project-info { opacity: 1; }
 
+        /* Project Buttons & Categorization */
+        .project-category-header { 
+            margin: 50px 0 30px; 
+            border-left: 5px solid var(--gold); 
+            padding-left: 20px;
+            font-size: 1.8rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .btn-gallery {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 8px 18px;
+            background: transparent;
+            border: 1px solid var(--gold);
+            color: var(--gold);
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 0.8rem;
+            font-weight: 700;
+            transition: 0.3s;
+        }
+        .btn-gallery:hover { background: var(--gold); color: #000; }
+
         /* Service Areas - SEO GOLDMINE */
         .areas-grid {
             display: grid;
@@ -380,59 +405,81 @@
             <p>Portfolio</p>
             <h2>Proven Excellence</h2>
         </div>
+        <h3 class="project-category-header">🇦🇺 Australia Modern (2024 - Present)</h3>
         <div class="portfolio-grid">
-            <!-- Busselton Spotlight -->
-            <div style="grid-column: span 1 / -1; display: flex; flex-wrap: wrap; align-items: stretch; gap: 30px; background: rgba(255, 255, 255, 0.05); padding: 30px; border-radius: 20px; border: 1px solid rgba(212, 175, 55, 0.3);">
-                <div style="flex: 1; min-width: 300px;">
-                    <span style="color: #D4AF37; font-weight: bold; letter-spacing: 2px;">RECENT WORK</span>
-                    <h2 style="font-size: 2.5rem; margin: 10px 0;">Project Spotlight</h2>
-                    <p style="font-size: 1.1rem; line-height: 1.8; color: #ccc; margin-bottom: 25px;">
-                        South West WA is growing, and so are we. We've recently completed several high-end residential tiling projects across <b>Busselton, Vasse, and Abbey</b>. From luxury ensuite renovations to expansive main floor living areas, we bring our signature precision to every home in the Busselton region.
-                    </p>
-                    <a href="#contact" class="btn-cta">BOOK A BUSSELTON QUOTE</a>
+            <!-- 14 Birch St -->
+            <div class="project-card">
+                <img src="assets/portfolio_auto_1.jpg" alt="14 Birch Street Avenue">
+                <div class="project-info">
+                    <h3>Bath & Ensuite Precision</h3>
+                    <p>14 Birch St Ave. High-standard residential bathroom renovations.</p>
+                    <a href="https://photos.app.goo.gl/HhiM9cZom4jAdack7" target="_blank" class="btn-gallery">VIEW FULL GALLERY &rarr;</a>
                 </div>
-                <div style="flex: 1.5; min-width: 300px; display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
-                    <img src="assets/busselton_alfresco.jpg" alt="Busselton Alfresco Tiling" style="height: 400px; width: 100%; border-radius: 15px; object-fit: cover; border: 2px solid rgba(212, 175, 55, 0.2);">
-                    <img src="assets/busselton_bathroom.jpg" alt="Busselton Luxury Bathroom" style="height: 400px; width: 100%; border-radius: 15px; object-fit: cover; border: 2px solid rgba(212, 175, 55, 0.2);">
+            </div>
+            
+            <!-- 3/31 Marlston Drv -->
+            <div class="project-card">
+                <img src="assets/portfolio_auto_2.jpg" alt="3/31 Marlston Drv, Bunbury">
+                <div class="project-info">
+                    <h3>Coastal Modern Residential</h3>
+                    <p>3/31 Marlston Drv, Bunbury. Premium flooring and wet area finishes.</p>
+                    <a href="https://photos.app.goo.gl/k4XnwNdeQmTrBDwJ9" target="_blank" class="btn-gallery">VIEW FULL GALLERY &rarr;</a>
                 </div>
             </div>
 
-            <!-- New Insurance Project: Australind -->
+            <!-- 21 Tall Tree Cres -->
             <div class="project-card">
-                <img src="assets/insurance_repair_australind.jpg" alt="Insurance Tiling Repair - Australind">
+                <img src="assets/portfolio_auto_3.jpg" alt="21 Tall Tree Cres, Reinscourt">
                 <div class="project-info">
-                    <h3>Insurance Compliance Project</h3>
-                    <p>13 Whitely Pl, Australind. High-standard safety & repair work for national insurance group.</p>
+                    <h3>High-Spec Technical Tiling</h3>
+                    <p>21 Tall Tree Cres, Reinscourt. Precision mitre cuts and layout execution.</p>
+                    <a href="https://photos.app.goo.gl/msbxAfYGr53nBbSb6" target="_blank" class="btn-gallery">VIEW FULL GALLERY &rarr;</a>
                 </div>
             </div>
-            
+
+            <!-- 23 Golden Ash Rise -->
             <div class="project-card">
-                <img src="assets/insurance_repair_process.jpg" alt="Insurance Tiling Process">
+                <img src="assets/portfolio_auto_5.jpg" alt="23 Golden Ash Rise, Bridgetown">
                 <div class="project-info">
-                    <h3>Precision & Protection</h3>
-                    <p>Substrate preparation and WHS protocol execution.</p>
+                    <h3>Landscape & Garden Integration</h3>
+                    <p>23 Golden Ash Rise, Bridgetown. Large-scale residential and outdoor tiling.</p>
+                    <a href="https://photos.app.goo.gl/P2BMLNcEaKkmeEiT6" target="_blank" class="btn-gallery">VIEW FULL GALLERY &rarr;</a>
                 </div>
             </div>
-            
+        </div>
+
+        <h3 class="project-category-header">🇳🇿 New Zealand Heritage</h3>
+        <div class="portfolio-grid">
+            <!-- Ashwood -->
             <div class="project-card">
-                <img src="assets/portfolio_auto_2.jpg" alt="Cowaramup Project - High End Bathroom">
+                <img src="assets/insurance_repair_australind.jpg" alt="Ashwood Retirement Village">
                 <div class="project-info">
-                    <h3>Cowaramup Luxury Bath</h3>
-                    <p>Large Format Porcelain & Gold Trim</p>
+                    <h3>Commercial Retirement Excellence</h3>
+                    <p>Ashwood Retirement Village (NZ). Large-scale high-tier residential tiling.</p>
+                    <a href="https://photos.app.goo.gl/4624s2XhmbpS8nFv7" target="_blank" class="btn-gallery">VIEW FULL GALLERY &rarr;</a>
                 </div>
             </div>
+
+            <!-- 22 Bond Street -->
             <div class="project-card">
-                <img src="assets/portfolio_auto_5.jpg" alt="San Macro Project">
+                <img src="assets/insurance_repair_process.jpg" alt="22 Bond Street, Blenheim">
                 <div class="project-info">
-                    <h3>San Macro Main Floor</h3>
-                    <p>Precise 600x600 Layout</p>
+                    <h3>Residential Heritage Finish</h3>
+                    <p>22 Bond Street, Blenheim (NZ). High-quality renovation work.</p>
+                    <a href="https://photos.app.goo.gl/yLJ6XS8vY1NUvtjCA" target="_blank" class="btn-gallery">VIEW FULL GALLERY &rarr;</a>
                 </div>
             </div>
+
+            <!-- Library / Springland -->
             <div class="project-card">
-                <img src="assets/portfolio_auto_3.jpg" alt="Detail Work">
+                <img src="assets/portfolio_auto_2.jpg" alt="Library Project">
                 <div class="project-info">
-                    <h3>Precision Miter Cuts</h3>
-                    <p>Engineering Grade Corners</p>
+                    <h3>Institutional & Public Projects</h3>
+                    <p>Blenheim Library & Springland Projects (NZ). Public sector tiling standards.</p>
+                    <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                        <a href="https://photos.app.goo.gl/Pgwz7P9khuHGNvzM6" target="_blank" class="btn-gallery">LIBRARY &rarr;</a>
+                        <a href="https://photos.app.goo.gl/BTAV7iu6732rCNET7" target="_blank" class="btn-gallery">SPRINGLAND &rarr;</a>
+                    </div>
                 </div>
             </div>
         </div>
