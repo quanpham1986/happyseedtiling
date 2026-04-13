@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Happy Seed Tiling | Get a Free Quote</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="stars-container"></div>
+
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="assets/logo.jpg" alt="Happy Seed Tiling"></a>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+        <a href="contact.html" class="btn-cta">REQUEST A QUOTE &rarr;</a>
+    </header>
+
+    <div class="page-header">
+        <p>Get in Touch</p>
+        <h1>Let's Start Your Project</h1>
+    </div>
+
+    <section class="section-wrap">
+        <div class="contact-container">
+            <div>
+                <h2 style="font-size: 2.5rem; margin-bottom: 20px;">Contact Details</h2>
+                <p style="font-size: 1.1rem; color: var(--text-dim); margin-bottom: 40px;">Reach out for a **FREE no-obligation quote** and site assessment.</p>
+                
+                <div style="margin-bottom: 30px;">
+                    <p style="font-weight: 700; color: var(--gold);"><i class="fas fa-phone"></i> CALL OR TEXT</p>
+                    <a href="tel:0491754808" style="font-size: 1.8rem; color: #fff; text-decoration: none; font-weight: 800;">0491 754 808</a>
+                </div>
+                <div style="margin-bottom: 30px;">
+                    <p style="font-weight: 700; color: var(--gold);"><i class="fas fa-envelope"></i> EMAIL US</p>
+                    <a href="mailto:happyseedwa@gmail.com" style="font-size: 1.2rem; color: #fff; text-decoration: none;">happyseedwa@gmail.com</a>
+                </div>
+                <div style="margin-bottom: 30px;">
+                    <p style="font-weight: 700; color: var(--gold);"><i class="fas fa-map-marker-alt"></i> SERVICE AREAS</p>
+                    <p style="color: var(--text-dim);">Bunbury, Busselton, Eaton, and all South West WA.</p>
+                </div>
+            </div>
+
+            <!-- FORMSPREE INTEGRATION -->
+            <form action="https://formspree.io/f/xvgzvkgb" method="POST">
+                <div class="form-group">
+                    <label>YOUR NAME</label>
+                    <input type="text" name="name" placeholder="John Citizen" required>
+                </div>
+                <div class="form-group">
+                    <label>PHONE NUMBER</label>
+                    <input type="tel" name="phone" placeholder="04XX XXX XXX" required>
+                </div>
+                <div class="form-group">
+                    <label>SUBURB</label>
+                    <input type="text" name="suburb" placeholder="e.g. Bunbury" required>
+                </div>
+                <div class="form-group">
+                    <label>PROJECT TYPE</label>
+                    <select name="type">
+                        <option>Bathroom Renovation</option>
+                        <option>Main Floor Tiling</option>
+                        <option>Kitchen Splashback</option>
+                        <option>Outdoor/Alfresco</option>
+                        <option>Other / Full House</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>TELL US ABOUT THE JOB</label>
+                    <textarea name="message" rows="4" placeholder="Brief description of what you need..."></textarea>
+                </div>
+                <button type="submit" class="btn-cta" style="width: 100%; border: none; cursor: pointer; padding: 18px;">SEND INQUIRY &rarr;</button>
+            </form>
+        </div>
+    </section>
+
+    <footer style="padding: 50px 8vw; border-top: 1px solid rgba(255,255,255,0.05); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px;">
+        <p>© 2026 Happy Seed Tiling | ABN: 22 876 090 206 | Bunbury, WA</p>
+        <div style="display: flex; gap: 30px;">
+            <a href="https://facebook.com/happyseedtiling" style="color: var(--text-dim); font-size: 1.5rem;"><i class="fab fa-facebook"></i></a>
+            <a href="https://instagram.com/happyseedtiling" style="color: var(--text-dim); font-size: 1.5rem;"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+</body>
+</html>

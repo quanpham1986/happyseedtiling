@@ -5,326 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>Happy Seed Tiling | Premium Tiling Specialist | Bunbury & South West WA</title>
-    <meta name="description" content="Happy Seed Tiling - Premium bathroom renovations and large format tiling. Engineering precision with 5-star service in Bunbury, Busselton, Eaton, and South West WA.">
-    <meta name="keywords" content="Tiling Bunbury, Tiler Busselton, Bathroom Renovations Harvey WA, Tiling Australind, Eaton Tiler, Collie Flooring, Dalyellup Tiling, Capel Contractor, Best Tiler 2026">
+    <meta name="description" content="Happy Seed Tiling - Premium bathroom renovations and large format tiling in Bunbury, Busselton, and South West WA. High-end craftsmanship meets 5-star service.">
     
-    <!-- Open Graph for Facebook -->
-    <meta property="og:title" content="Happy Seed Tiling | Premium Tiling Specialist">
-    <meta property="og:description" content="Engineering precision meets 5-star service. Premium tiling in Bunbury and South West WA.">
-    <meta property="og:image" content="https://happyseedtiling.com.au/assets/logo.jpg">
-    <meta property="og:url" content="https://happyseedtiling.com.au">
-
-    <!-- JSON-LD Local Business Schema -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "Happy Seed Tiling",
-      "image": "https://happyseedtiling.com.au/assets/logo.jpg",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Bunbury",
-        "addressRegion": "WA",
-        "postalCode": "6232",
-        "addressCountry": "AU"
-      },
-      "url": "https://happyseedtiling.com.au",
-      "telephone": "+61491754808",
-      "priceRange": "$$",
-      "description": "Premium tiling specialist in Bunbury and South West WA, specializing in bathroom renovations and large format tiling."
-    }
-    </script>
-    
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-
-    <style>
-        :root {
-            --bg-dark: #020617;
-            --bg-card: rgba(15, 23, 42, 0.6);
-            --border-gold: rgba(212, 175, 55, 0.3);
-            --gold: #D4AF37;
-            --gold-glow: rgba(212, 175, 55, 0.4);
-            --text-main: #f8fafc;
-            --text-dim: #94a3b8;
-            --accent-blue: #38bdf8;
-        }
-
-        * { box-sizing: border-box; }
-        html { scroll-behavior: smooth; }
-        
-        body {
-            background-color: var(--bg-dark);
-            color: var(--text-main);
-            font-family: 'Inter', sans-serif;
-            margin: 0;
-            overflow-x: hidden;
-            line-height: 1.6;
-        }
-
-        /* Animated Background Stars */
-        .stars-container {
-            position: fixed;
-            top: 0; left: 0; width: 100%; height: 100%;
-            background: radial-gradient(circle at 50% 50%, #0f172a 0%, #020617 100%);
-            z-index: -1;
-        }
-
-        h1, h2, h3, h4 { font-family: 'Outfit', sans-serif; }
-
-        /* Navigation Header */
-        header {
-            position: fixed;
-            top: 0; width: 100%; z-index: 1000;
-            padding: 20px 8vw;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background: rgba(2, 6, 23, 0.8);
-            backdrop-filter: blur(12px);
-            border-bottom: 1px solid var(--border-gold);
-        }
-
-        .logo img { height: 50px; border-radius: 8px; }
-
-        nav a {
-            color: var(--text-main);
-            text-decoration: none;
-            margin-left: 30px;
-            font-weight: 500;
-            font-size: 0.9rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            transition: color 0.3s;
-        }
-        nav a:hover { color: var(--gold); }
-
-        .btn-cta {
-            background: var(--gold);
-            color: #000;
-            padding: 10px 25px;
-            border-radius: 50px;
-            font-weight: 700;
-            text-decoration: none;
-            box-shadow: 0 0 20px var(--gold-glow);
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
-        .btn-cta:hover { transform: scale(1.05); box-shadow: 0 0 30px var(--gold); }
-
-        /* Hero Section */
-        .hero {
-            padding: 180px 8vw 100px;
-            display: grid;
-            grid-template-columns: 1.2fr 0.8fr;
-            align-items: center;
-            gap: 50px;
-        }
-
-        .hero-tagline {
-            display: inline-flex;
-            align-items: center;
-            gap: 10px;
-            background: rgba(212, 175, 55, 0.1);
-            border: 1px solid var(--gold);
-            padding: 8px 16px;
-            border-radius: 50px;
-            color: var(--gold);
-            font-weight: 600;
-            font-size: 0.8rem;
-            text-transform: uppercase;
-            margin-bottom: 25px;
-        }
-
-        .hero h1 {
-            font-size: clamp(3rem, 6vw, 5rem);
-            line-height: 1.1;
-            margin-bottom: 30px;
-            font-weight: 800;
-        }
-
-        .hero h1 span { color: var(--gold); }
-
-        .hero p {
-            font-size: 1.2rem;
-            color: var(--text-dim);
-            max-width: 600px;
-            margin-bottom: 40px;
-        }
-
-        .hero-img-wrap {
-            position: relative;
-        }
-
-        .hero-img-wrap img {
-            width: 100%;
-            border-radius: 30px;
-            border: 1px solid var(--border-gold);
-            box-shadow: 0 30px 60px rgba(0,0,0,0.8);
-        }
-
-        /* Marquee Ticker */
-        .ticker {
-            background: var(--gold);
-            color: #000;
-            padding: 15px 0;
-            font-weight: 900;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            overflow: hidden;
-            white-space: nowrap;
-            display: flex;
-            transform: skewY(-1deg);
-        }
-
-        .ticker-content {
-            animation: tickerScroll 30s linear infinite;
-            display: inline-block;
-        }
-
-        @keyframes tickerScroll {
-            0% { transform: translateX(0); }
-            100% { transform: translateX(-50%); }
-        }
-
-        /* Features Section */
-        .section-wrap { padding: 100px 8vw; }
-        .section-title { text-align: center; margin-bottom: 80px; }
-        .section-title h2 { font-size: 3rem; margin-bottom: 20px; }
-        .section-title p { color: var(--gold); text-transform: uppercase; letter-spacing: 3px; font-weight: 600; }
-
-        .features-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-        }
-
-        .feature-card {
-            background: var(--bg-card);
-            padding: 40px;
-            border-radius: 24px;
-            border: 1px solid var(--border-gold);
-            backdrop-filter: blur(10px);
-            transition: 0.3s;
-        }
-        .feature-card:hover { transform: translateY(-10px); background: rgba(212, 175, 55, 0.05); }
-        .feature-card i { font-size: 2.5rem; color: var(--gold); margin-bottom: 25px; }
-        .feature-card h3 { font-size: 1.5rem; margin-bottom: 15px; }
-        .feature-card p { color: var(--text-dim); }
-
-        /* Portfolio */
-        .portfolio-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 40px;
-        }
-        .project-card {
-            overflow: hidden;
-            border-radius: 20px;
-            position: relative;
-            cursor: pointer;
-        }
-        .project-card img { width: 100%; height: 450px; object-fit: cover; transition: 0.5s; }
-        .project-card:hover img { transform: scale(1.1); filter: brightness(0.7); }
-        .project-info {
-            position: absolute; bottom: 0; left: 0; width: 100%;
-            padding: 30px; background: linear-gradient(transparent, rgba(0,0,0,0.9));
-            opacity: 0; transition: 0.3s;
-        }
-        .project-card:hover .project-info { opacity: 1; }
-
-        /* Project Buttons & Categorization */
-        .project-category-header { 
-            margin: 50px 0 30px; 
-            border-left: 5px solid var(--gold); 
-            padding-left: 20px;
-            font-size: 1.8rem;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-        }
-
-        .btn-gallery {
-            display: inline-block;
-            margin-top: 15px;
-            padding: 8px 18px;
-            background: transparent;
-            border: 1px solid var(--gold);
-            color: var(--gold);
-            border-radius: 5px;
-            text-decoration: none;
-            font-size: 0.8rem;
-            font-weight: 700;
-            transition: 0.3s;
-        }
-        .btn-gallery:hover { background: var(--gold); color: #000; }
-
-        /* Service Areas - SEO GOLDMINE */
-        .areas-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-            gap: 15px;
-        }
-        .area-btn {
-            background: rgba(255,255,255,0.03);
-            border: 1px solid rgba(255,255,255,0.1);
-            padding: 12px;
-            text-align: center;
-            border-radius: 12px;
-            font-size: 0.9rem;
-            color: var(--text-dim);
-            transition: 0.3s;
-        }
-        .area-btn:hover { border-color: var(--gold); color: #fff; transform: translateY(-3px); }
-
-        /* Contact Form */
-        .contact-container {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 80px;
-            background: var(--bg-card);
-            border-radius: 30px;
-            border: 1px solid var(--border-gold);
-            padding: 60px;
-            overflow: hidden;
-        }
-        .form-group { margin-bottom: 25px; }
-        .form-group label { display: block; margin-bottom: 10px; font-weight: 500; font-size: 0.9rem; color: var(--gold); }
-        .form-group input, .form-group textarea, .form-group select {
-            width: 100%; background: rgba(255,255,255,0.05);
-            border: 1px solid rgba(255,255,255,0.1);
-            padding: 15px; border-radius: 10px; color: #fff;
-            font-family: inherit;
-        }
-        .form-group input:focus { border-color: var(--gold); outline: none; }
-
-        /* Responsive */
-        @media (max-width: 992px) {
-            .hero, .contact-container { grid-template-columns: 1fr; }
-            header nav { display: none; }
-            .hero { padding: 120px 8vw 50px; text-align: center; }
-            .hero h1 { font-size: 3.5rem; }
-            .hero-img-wrap img { width: 80%; }
-        }
-
-    </style>
 </head>
 <body>
     <div class="stars-container"></div>
 
     <header>
         <div class="logo">
-            <img src="assets/logo.jpg" alt="Happy Seed Tiling">
+            <a href="index.html"><img src="assets/logo.jpg" alt="Happy Seed Tiling"></a>
         </div>
         <nav>
-            <a href="#home">Home</a>
-            <a href="#about">Founder</a>
-            <a href="#services">Services</a>
-            <a href="#works">Gallery</a>
-            <a href="#areas">Locations</a>
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
         </nav>
-        <a href="#contact" class="btn-cta">LET'S TALK &rarr;</a>
+        <a href="contact.html" class="btn-cta">REQUEST A QUOTE &rarr;</a>
     </header>
 
     <section class="hero" id="home">
@@ -333,10 +37,10 @@
                 <i class="fas fa-shield-halved"></i> Fully Insured & Licensed Specialist
             </div>
             <h1>Premium <span>Tiling</span> <br>Expertly Crafted.</h1>
-            <p>High-end craftsmanship meets 5-star service. We don't just lay tiles; we execute flawless architectural visions in Bunbury and across South West WA.</p>
+            <p>High-end craftsmanship meets 5-star service. We execute flawless architectural visions in Bunbury and across South West WA.</p>
             <div style="display: flex; gap: 20px; flex-wrap: wrap;">
-                <a href="#contact" class="btn-cta">GET A FREE QUOTE</a>
-                <a href="#works" style="color: #fff; display: flex; align-items: center; gap: 10px; text-decoration: none; font-weight: 600;">
+                <a href="contact.html" class="btn-cta">GET A FREE QUOTE</a>
+                <a href="portfolio.html" style="color: #fff; display: flex; align-items: center; gap: 10px; text-decoration: none; font-weight: 600;">
                     VIEW OUR WORK <i class="fas fa-arrow-right"></i>
                 </a>
             </div>
@@ -353,220 +57,81 @@
         </div>
     </div>
 
-    <section class="section-wrap" id="services">
+    <!-- Featured Projects Preview -->
+    <section class="section-wrap">
         <div class="section-title">
-            <p>Our Expertise</p>
-            <h2>What We Do Best</h2>
+            <p>Recent Work</p>
+            <h2>Featured Projects</h2>
+        </div>
+        <div class="portfolio-grid">
+            <div class="project-card">
+                <img src="assets/portfolio_auto_2.jpg" alt="Modern Bathroom">
+                <div class="project-info">
+                    <h3>Bath & Ensuite Precision</h3>
+                    <p>Meticulous tiling for luxury residential spaces.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="assets/portfolio_auto_3.jpg" alt="Large Format Tiling">
+                <div class="project-info">
+                    <h3>Large Format Expertise</h3>
+                    <p>Perfectly leveled main floors and technical layouts.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="assets/portfolio_auto_5.jpg" alt="Outdoor Tiling">
+                <div class="project-info">
+                    <h3>Commercial & Residential</h3>
+                    <p>High-durability finishes across AU and NZ.</p>
+                </div>
+            </div>
+        </div>
+        <div style="text-align: center; margin-top: 50px;">
+            <a href="portfolio.html" class="btn-cta">VIEW FULL PORTFOLIO &rarr;</a>
+        </div>
+    </section>
+
+    <section class="section-wrap" style="background: rgba(255,255,255,0.02); border-top: 1px solid var(--border-gold); border-bottom: 1px solid var(--border-gold);">
+        <div class="contact-container" style="border: none; background: none; padding: 0; align-items: center;">
+            <div>
+                <p style="color: var(--gold); text-transform: uppercase; letter-spacing: 2px; font-weight: 800; margin-bottom: 20px;">Why Happy Seed?</p>
+                <h2 style="font-size: 2.5rem; margin-bottom: 30px;">The Signature of Quality.</h2>
+                <p style="font-size: 1.1rem; color: var(--text-dim); line-height: 1.8;">
+                    Every project is led by Principal Specialist Chris Vincent, ensuring that our "Standard of Service" matches the "Standard of Work". You get clear communication, absolute respect for your home, and a finish that lasts a lifetime.
+                </p>
+                <a href="about.html" style="color: var(--gold); text-decoration: none; font-weight: 700; display: inline-block; margin-top: 20px;">READ OUR STORY &rarr;</a>
+            </div>
+            <div class="hero-img-wrap">
+                <img src="assets/insurance_repair_process.jpg" alt="Technical Tiling Mastery" style="border-radius: 20px;">
+            </div>
+        </div>
+    </section>
+
+    <!-- Brief Services Teaser -->
+    <section class="section-wrap">
+        <div class="section-title">
+            <p>Solutions</p>
+            <h2>What We Offer</h2>
         </div>
         <div class="features-grid">
             <div class="feature-card">
                 <i class="fas fa-bath"></i>
                 <h3>Bathroom Renovations</h3>
-                <p>Complete transformation from demolition to the final grout line. We handle luxury fit-outs with unmatched attention to detail.</p>
+                <p>Complete transformation from demolition to the final grout line.</p>
             </div>
             <div class="feature-card">
                 <i class="fas fa-vector-square"></i>
                 <h3>Large Format Tiles</h3>
-                <p>Mastery of 600x600, 1200x600, and larger slabs. Perfect leveling and razor-sharp cuts for a seamless finish.</p>
+                <p>Mastery of 600x600, 1200x600, and larger porcelain slabs.</p>
             </div>
             <div class="feature-card">
                 <i class="fas fa-shield-halved"></i>
                 <h3>Waterproofing & Screed</h3>
-                <p>The foundation is everything. We ensure 100% moisture protection and perfect fall-to-wastes every single time.</p>
+                <p>The foundation is everything. Certified application every time.</p>
             </div>
         </div>
-    </section>
-
-    <!-- Founder Section (Added Storytelling) -->
-    <section class="section-wrap" id="about" style="background: rgba(255,255,255,0.02);">
-        <div class="contact-container" style="border: none; background: none; padding: 0;">
-            <div class="hero-img-wrap">
-                <img src="assets/Hinhchandung.jpg" alt="Quan Pham - The Founder" style="border-radius: 20px; width: 100%;">
-            </div>
-            <div>
-                <p style="color: var(--gold); text-transform: uppercase; letter-spacing: 2px; font-weight: 800; margin-bottom: 20px;">The Happy Seed Story</p>
-                <h2 style="font-size: 3rem; margin-bottom: 30px;">Premium Craftsmanship. <br><span>5-Star Service.</span></h2>
-                <p style="font-size: 1.1rem; line-height: 1.8;">
-                    Founded by <strong>Chris Vincent (Quan Pham)</strong>, Happy Seed Tiling is dedicated to providing specialized tiling solutions with a focus on durability, aesthetics, and technical excellence. With over 4 years of experience delivering high-end projects across New Zealand and Western Australia, we have built a reputation for meticulous detail and unwavering quality.
-                </p>
-                <p style="font-size: 1.1rem; line-height: 1.8;">
-                    With a professional background in high-end hospitality management, we ensure that every client experience matches the superior quality of our work. You get proactive communication, respect for your property, and a finished product that is built to last.
-                </p>
-                <div style="margin-top: 40px; border-left: 4px solid var(--gold); padding-left: 30px;">
-                    <h4 style="font-size: 1.5rem; margin-bottom: 10px;">"Quality is the result of intention and mastery."</h4>
-                    <p style="font-style: italic; color: var(--gold);">- Chris Vincent, Principal Specialist</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section-wrap" id="works">
-        <div class="section-title">
-            <p>Portfolio</p>
-            <h2>Proven Excellence</h2>
-        </div>
-        <h3 class="project-category-header">🇦🇺 Australia Modern (2024 - Present)</h3>
-        <div class="portfolio-grid">
-            <!-- 14 Birch St -->
-            <div class="project-card">
-                <img src="assets/portfolio_auto_1.jpg" alt="14 Birch Street Avenue">
-                <div class="project-info">
-                    <h3>Bath & Ensuite Precision</h3>
-                    <p>14 Birch St Ave. High-standard residential bathroom renovations.</p>
-                    <a href="https://photos.app.goo.gl/HhiM9cZom4jAdack7" target="_blank" class="btn-gallery">VIEW FULL GALLERY &rarr;</a>
-                </div>
-            </div>
-            
-            <!-- 3/31 Marlston Drv -->
-            <div class="project-card">
-                <img src="assets/portfolio_auto_2.jpg" alt="3/31 Marlston Drv, Bunbury">
-                <div class="project-info">
-                    <h3>Coastal Modern Residential</h3>
-                    <p>3/31 Marlston Drv, Bunbury. Premium flooring and wet area finishes.</p>
-                    <a href="https://photos.app.goo.gl/k4XnwNdeQmTrBDwJ9" target="_blank" class="btn-gallery">VIEW FULL GALLERY &rarr;</a>
-                </div>
-            </div>
-
-            <!-- 21 Tall Tree Cres -->
-            <div class="project-card">
-                <img src="assets/portfolio_auto_3.jpg" alt="21 Tall Tree Cres, Reinscourt">
-                <div class="project-info">
-                    <h3>High-Spec Technical Tiling</h3>
-                    <p>21 Tall Tree Cres, Reinscourt. Precision mitre cuts and layout execution.</p>
-                    <a href="https://photos.app.goo.gl/msbxAfYGr53nBbSb6" target="_blank" class="btn-gallery">VIEW FULL GALLERY &rarr;</a>
-                </div>
-            </div>
-
-            <!-- 23 Golden Ash Rise -->
-            <div class="project-card">
-                <img src="assets/portfolio_auto_5.jpg" alt="23 Golden Ash Rise, Bridgetown">
-                <div class="project-info">
-                    <h3>Landscape & Garden Integration</h3>
-                    <p>23 Golden Ash Rise, Bridgetown. Large-scale residential and outdoor tiling.</p>
-                    <a href="https://photos.app.goo.gl/P2BMLNcEaKkmeEiT6" target="_blank" class="btn-gallery">VIEW FULL GALLERY &rarr;</a>
-                </div>
-            </div>
-        </div>
-
-        <h3 class="project-category-header">🇳🇿 New Zealand Heritage</h3>
-        <div class="portfolio-grid">
-            <!-- Ashwood -->
-            <div class="project-card">
-                <img src="assets/insurance_repair_australind.jpg" alt="Ashwood Retirement Village">
-                <div class="project-info">
-                    <h3>Commercial Retirement Excellence</h3>
-                    <p>Ashwood Retirement Village (NZ). Large-scale high-tier residential tiling.</p>
-                    <a href="https://photos.app.goo.gl/4624s2XhmbpS8nFv7" target="_blank" class="btn-gallery">VIEW FULL GALLERY &rarr;</a>
-                </div>
-            </div>
-
-            <!-- 22 Bond Street -->
-            <div class="project-card">
-                <img src="assets/insurance_repair_process.jpg" alt="22 Bond Street, Blenheim">
-                <div class="project-info">
-                    <h3>Residential Heritage Finish</h3>
-                    <p>22 Bond Street, Blenheim (NZ). High-quality renovation work.</p>
-                    <a href="https://photos.app.goo.gl/yLJ6XS8vY1NUvtjCA" target="_blank" class="btn-gallery">VIEW FULL GALLERY &rarr;</a>
-                </div>
-            </div>
-
-            <!-- Library / Springland -->
-            <div class="project-card">
-                <img src="assets/portfolio_auto_2.jpg" alt="Library Project">
-                <div class="project-info">
-                    <h3>Institutional & Public Projects</h3>
-                    <p>Blenheim Library & Springland Projects (NZ). Public sector tiling standards.</p>
-                    <div style="display: flex; gap: 10px; flex-wrap: wrap;">
-                        <a href="https://photos.app.goo.gl/Pgwz7P9khuHGNvzM6" target="_blank" class="btn-gallery">LIBRARY &rarr;</a>
-                        <a href="https://photos.app.goo.gl/BTAV7iu6732rCNET7" target="_blank" class="btn-gallery">SPRINGLAND &rarr;</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Service Areas (FREE SEO POWER) -->
-    <section class="section-wrap" id="areas">
-        <div class="section-title">
-            <p>Service Locations</p>
-            <h2>Find Us in Your Area</h2>
-        </div>
-        <div class="areas-grid">
-            <div class="area-btn">Bunbury</div>
-            <div class="area-btn">Eaton</div>
-            <div class="area-btn">Australind</div>
-            <div class="area-btn">Busselton</div>
-            <div class="area-btn">Harvey</div>
-            <div class="area-btn">Collie</div>
-            <div class="area-btn">Dalyellup</div>
-            <div class="area-btn">Donnybrook</div>
-            <div class="area-btn">Capel</div>
-            <div class="area-btn">Treendale</div>
-            <div class="area-btn">Millbridge</div>
-            <div class="area-btn">Leschenault</div>
-            <div class="area-btn">Gelorup</div>
-            <div class="area-btn">Dardanup</div>
-            <div class="area-btn">Boyanup</div>
-            <div class="area-btn">Brunswick Junction</div>
-            <div class="area-btn">Binningup</div>
-            <div class="area-btn">Roelands</div>
-            <div class="area-btn">Stratham</div>
-            <div class="area-btn">Burekup</div>
-            <div class="area-btn">Myalup</div>
-            <div class="area-btn">Waterloo</div>
-            <div class="area-btn">Vasse</div>
-        </div>
-        <a href="https://www.google.com/search?q=Happy+Seed+Tiling" class="gmb-link" style="display: block; text-align: center; margin-top: 50px; color: var(--gold); text-decoration: none; font-weight: 700;">
-            <i class="fab fa-google"></i> VIEW OUR 5-STAR GOOGLE REVIEWS &rarr;
-        </a>
-    </section>
-
-    <section class="section-wrap" id="contact">
-        <div class="contact-container">
-            <div>
-                <h2 style="font-size: 3rem; margin-bottom: 20px;">Ready to Start?</h2>
-                <p style="font-size: 1.2rem; color: var(--text-dim); margin-bottom: 40px;">Leave your details below and we'll reach out within 24 hours for a <strong>FREE no-obligation quote</strong>.</p>
-                
-                <div style="margin-bottom: 30px;">
-                    <p style="font-weight: 700; color: var(--gold);"><i class="fas fa-phone"></i> CALL OR TEXT</p>
-                    <a href="tel:0491754808" style="font-size: 1.8rem; color: #fff; text-decoration: none; font-weight: 800;">0491 754 808</a>
-                </div>
-                <div>
-                    <p style="font-weight: 700; color: var(--gold);"><i class="fas fa-envelope"></i> EMAIL US</p>
-                    <a href="mailto:happyseedwa@gmail.com" style="font-size: 1.2rem; color: #fff; text-decoration: none;">happyseedwa@gmail.com</a>
-                </div>
-            </div>
-
-            <!-- FORMSPREE INTEGRATION -->
-            <form action="https://formspree.io/f/xvgzvkgb" method="POST">
-                <div class="form-group">
-                    <label>YOUR NAME</label>
-                    <input type="text" name="name" placeholder="John Citizen" required>
-                </div>
-                <div class="form-group">
-                    <label>PHONE NUMBER</label>
-                    <input type="tel" name="phone" placeholder="04XX XXX XXX" required>
-                </div>
-                <div class="form-group">
-                    <label>SUBURB</label>
-                    <input type="text" name="suburb" placeholder="e.g. Bunbury" required>
-                </div>
-                <div class="form-group">
-                    <label>PROJECT TYPE</label>
-                    <select name="type">
-                        <option>Bathroom Renovation</option>
-                        <option>Main Floor Tiling</option>
-                        <option>Kitchen Splashback</option>
-                        <option>Outdoor/Alfresco</option>
-                        <option>Other / Full House</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label>TELL US ABOUT THE JOB</label>
-                    <textarea name="message" rows="4" placeholder="Brief description of what you need..."></textarea>
-                </div>
-                <button type="submit" class="btn-cta" style="width: 100%; border: none; cursor: pointer; padding: 18px;">SEND INQUIRY &rarr;</button>
-            </form>
+        <div style="text-align: center; margin-top: 50px;">
+            <a href="services.html" class="btn-cta">EXPLORE ALL SERVICES &rarr;</a>
         </div>
     </section>
 
