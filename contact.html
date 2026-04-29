@@ -21,6 +21,7 @@
             <a href="services.html">Services</a>
             <a href="portfolio.html">Portfolio</a>
             <a href="qualification.html">Qualifications</a>
+            <a href="calendar.html">Schedule</a>
             <a href="contact.html" class="active">Contact</a>
         </nav>
         <a href="contact.html" class="btn-cta">REQUEST A QUOTE &rarr;</a>
@@ -91,5 +92,31 @@
             <a href="https://instagram.com/happyseedtiling" style="color: var(--text-dim); font-size: 1.5rem;"><i class="fab fa-instagram"></i></a>
         </div>
     </footer>
+    <script>
+        const form = document.querySelector('form');
+        form.onsubmit = async (e) => {
+            e.preventDefault();
+            const btn = form.querySelector('button');
+            const originalText = btn.innerText;
+            btn.innerText = "SENDING...";
+            btn.disabled = true;
+
+            const formData = new FormData(form);
+            const response = await fetch(form.action, {
+                method: 'POST',
+                body: formData,
+                headers: { 'Accept': 'application/json' }
+            });
+
+            if (response.ok) {
+                alert("Thank you Sếp! Inquiry sent successfully. Em Hiếu Thứ Hai will process it immediately!");
+                form.reset();
+            } else {
+                alert("Oops! There was an error. Sếp please check the Formspree account or try again later.");
+            }
+            btn.innerText = originalText;
+            btn.disabled = false;
+        };
+    </script>
 </body>
 </html>
