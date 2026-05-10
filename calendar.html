@@ -12,7 +12,10 @@
             --accent-pink: #ff2d55;
             --accent-gold: #d4af37;
             --text-primary: #ffffff;
+            --text-secondary: #a0a0a0;
             --glass-border: rgba(255, 255, 255, 0.05);
+            --card-bg: rgba(25, 25, 25, 0.9);
+            --pink-glow: 0 0 20px rgba(255, 45, 85, 0.3);
         }
 
         body {
@@ -27,106 +30,174 @@
         }
 
         #login-screen {
-            background: rgba(25, 25, 25, 0.9);
-            padding: 40px;
-            border-radius: 24px;
+            background: var(--card-bg);
+            padding: 50px;
+            border-radius: 32px;
             border: 1px solid var(--glass-border);
             text-align: center;
             backdrop-filter: blur(20px);
-            box-shadow: 0 0 40px rgba(0,0,0,0.5);
-            max-width: 400px;
+            box-shadow: 0 30px 60px rgba(0,0,0,0.6);
+            max-width: 450px;
             width: 90%;
         }
 
-        h2 { color: var(--accent-gold); margin-bottom: 20px; }
+        h2 { color: var(--accent-gold); margin-bottom: 25px; font-weight: 700; letter-spacing: 1px; }
         
         input {
             width: 100%;
-            padding: 15px;
-            border-radius: 12px;
+            padding: 18px;
+            border-radius: 15px;
             border: 1px solid var(--glass-border);
             background: rgba(255,255,255,0.05);
             color: #fff;
-            font-size: 1.2rem;
+            font-size: 1.4rem;
             text-align: center;
-            margin-bottom: 20px;
+            margin-bottom: 25px;
             outline: none;
-        }
-
-        button {
-            width: 100%;
-            padding: 15px;
-            border-radius: 12px;
-            border: none;
-            background: var(--accent-pink);
-            color: #fff;
-            font-weight: 700;
-            cursor: pointer;
             transition: 0.3s;
         }
+        input:focus { border-color: var(--accent-pink); box-shadow: var(--pink-glow); }
 
-        button:hover { transform: scale(1.05); box-shadow: 0 0 20px rgba(255, 45, 85, 0.4); }
+        .btn-access {
+            width: 100%;
+            padding: 18px;
+            border-radius: 15px;
+            border: none;
+            background: linear-gradient(135deg, var(--accent-pink), #ff758c);
+            color: #fff;
+            font-weight: 700;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: 0.3s;
+            box-shadow: var(--pink-glow);
+        }
+        .btn-access:hover { transform: translateY(-3px); box-shadow: 0 15px 30px rgba(255, 45, 85, 0.5); }
 
-        #calendar-content { display: none; width: 100%; padding: 40px 20px; }
+        #calendar-content { display: none; width: 100%; padding: 60px 5vw; min-height: 100vh; background: transparent; }
 
-        /* Calendar Styles */
-        .visual-calendar { background: rgba(25, 25, 25, 0.9); border: 1px solid var(--glass-border); border-radius: 24px; padding: 30px; margin-bottom: 50px; }
-        .grid-7 { display: grid; grid-template-columns: repeat(7, 1fr); gap: 1px; background: var(--glass-border); }
-        .day-cell { background: #111; min-height: 100px; padding: 10px; font-size: 0.8rem; color: #888; }
-        .event-label { font-size: 0.6rem; padding: 3px 6px; border-radius: 3px; color: #fff; margin-top: 4px; }
+        .container { max-width: 1300px; margin: 0 auto; }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 50px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--glass-border);
+        }
+
+        .logo h1 { font-size: 2.2rem; font-weight: 800; color: var(--accent-pink); text-shadow: var(--pink-glow); }
+        .logo span { font-size: 0.75rem; color: var(--accent-gold); text-transform: uppercase; letter-spacing: 5px; }
+
+        /* Calendar Grid */
+        .visual-calendar {
+            background: var(--card-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 28px;
+            padding: 35px;
+            margin-bottom: 60px;
+            box-shadow: 0 25px 50px rgba(0,0,0,0.5);
+        }
+
+        .grid-7 { display: grid; grid-template-columns: repeat(7, 1fr); gap: 1px; background: var(--glass-border); border: 1px solid var(--glass-border); }
+        .day-name { background: #111; padding: 15px; text-align: center; font-size: 0.8rem; font-weight: 700; color: var(--text-secondary); }
+        .day-cell { background: #0d0d0d; min-height: 120px; padding: 12px; font-size: 0.9rem; color: var(--text-secondary); transition: 0.2s; }
+        .day-cell:hover { background: #161616; }
+        .day-cell.today { background: rgba(212, 175, 55, 0.05); box-shadow: inset 0 0 0 1px var(--accent-gold); }
+        .day-num { font-weight: 700; margin-bottom: 8px; }
+
+        .event-label { font-size: 0.7rem; padding: 4px 8px; border-radius: 5px; color: #fff; font-weight: 600; margin-top: 5px; line-height: 1.2; }
         .event-work { background: var(--accent-pink); }
         .event-personal { background: #007aff; }
-        .container { max-width: 1200px; margin: 0 auto; }
+        .event-finance { background: #ffd700; color: #000; }
+
+        /* Projects Section */
+        .section-title { margin: 50px 0 25px; font-size: 1.8rem; font-weight: 800; display: flex; align-items: center; gap: 20px; }
+        .section-title i { color: var(--accent-pink); }
+        .section-title::after { content: ''; flex: 1; height: 1px; background: var(--glass-border); }
+
+        .project-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px; }
+        .card { background: var(--card-bg); border: 1px solid var(--glass-border); border-radius: 20px; padding: 25px; transition: 0.3s; }
+        .card:hover { transform: translateY(-10px); border-color: var(--accent-pink); }
+        .card h4 { font-size: 1.3rem; margin-bottom: 12px; color: var(--accent-gold); }
+        .card p { font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6; }
+
+        .btn-logout { width: auto; padding: 10px 20px; background: rgba(255,255,255,0.05); border: 1px solid var(--glass-border); border-radius: 10px; color: #fff; cursor: pointer; font-size: 0.9rem; }
+        .btn-logout:hover { background: rgba(255,45,85,0.1); border-color: var(--accent-pink); }
     </style>
 </head>
 <body>
 
     <div id="login-screen">
-        <i class="fas fa-lock" style="font-size: 3rem; color: var(--accent-pink); margin-bottom: 20px;"></i>
-        <h2>Private Access Only</h2>
-        <p style="color: #a0a0a0; margin-bottom: 20px;">Please enter the password to view your schedule.</p>
-        <input type="password" id="password" placeholder="Password..." onkeypress="if(event.key === 'Enter') checkPassword()">
-        <button onclick="checkPassword()">ACCESS HUB</button>
+        <i class="fas fa-fingerprint" style="font-size: 4rem; color: var(--accent-pink); margin-bottom: 25px; text-shadow: var(--pink-glow);"></i>
+        <h2>Private Hub Access</h2>
+        <p style="color: #888; margin-bottom: 30px; font-size: 0.95rem;">Authentication required for Schedule & Active Projects.</p>
+        <input type="password" id="password" placeholder="••••" onkeypress="if(event.key === 'Enter') checkPassword()">
+        <button class="btn-access" onclick="checkPassword()">UNSEAL ACCESS</button>
     </div>
 
     <div id="calendar-content">
         <div class="container">
-            <header style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 40px;">
+            <header>
                 <div class="logo">
-                    <h1 style="color: var(--accent-pink); font-size: 2rem;">HIEU THU HAI HUB</h1>
-                    <span style="color: var(--accent-gold); font-size: 0.7rem; text-transform: uppercase;">Management Portal</span>
+                    <h1>HIEU THU HAI HUB</h1>
+                    <span>Management & Schedule 2026</span>
                 </div>
-                <button onclick="location.reload()" style="width: auto; padding: 8px 16px; background: rgba(255,255,255,0.1); border-radius: 8px;">Logout</button>
+                <button class="btn-logout" onclick="location.reload()"><i class="fas fa-sign-out-alt"></i> Logout</button>
             </header>
 
             <div class="visual-calendar">
-                <div style="font-size: 1.5rem; font-weight: 700; color: var(--accent-gold); margin-bottom: 20px;">May 2026</div>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px;">
+                    <div style="font-size: 2.2rem; font-weight: 800; color: var(--accent-gold);">May 2026</div>
+                    <div style="font-size: 0.8rem; display: flex; gap: 20px;">
+                        <span><i class="fas fa-square" style="color: var(--accent-pink);"></i> Work</span>
+                        <span><i class="fas fa-square" style="color: #007aff;"></i> Personal</span>
+                    </div>
+                </div>
+                
                 <div class="grid-7">
-                    <div style="background:#111; padding:10px; text-align:center; font-size:0.7rem; color:#666;">MON</div>
-                    <div style="background:#111; padding:10px; text-align:center; font-size:0.7rem; color:#666;">TUE</div>
-                    <div style="background:#111; padding:10px; text-align:center; font-size:0.7rem; color:#666;">WED</div>
-                    <div style="background:#111; padding:10px; text-align:center; font-size:0.7rem; color:#666;">THU</div>
-                    <div style="background:#111; padding:10px; text-align:center; font-size:0.7rem; color:#666;">FRI</div>
-                    <div style="background:#111; padding:10px; text-align:center; font-size:0.7rem; color:#666;">SAT</div>
-                    <div style="background:#111; padding:10px; text-align:center; font-size:0.7rem; color:#666;">SUN</div>
+                    <div class="day-name">MON</div><div class="day-name">TUE</div><div class="day-name">WED</div><div class="day-name">THU</div><div class="day-name">FRI</div><div class="day-name">SAT</div><div class="day-name">SUN</div>
                     
                     <div class="day-cell">27</div><div class="day-cell">28</div>
-                    <div class="day-cell" style="background:rgba(212, 175, 55, 0.05); color:#fff;">29<div class="event-label event-work">Donnybrook</div></div>
-                    <div class="day-cell">30<div class="event-label event-work">Donnybrook</div><div class="event-label event-personal">Dr Quach 2:30PM</div></div>
+                    <div class="day-cell">29<div class="event-label event-work">Donnybrook Start</div></div>
+                    <div class="day-cell">30<div class="event-label event-work">Donnybrook</div><div class="event-label event-personal">Dr Quach @ 2:30PM</div></div>
                     <div class="day-cell">1<div class="event-label event-work">Donnybrook</div></div>
-                    <div class="day-cell">2</div><div class="day-cell">3</div>
+                    <div class="day-cell">2<div class="event-label event-work">Donnybrook</div></div>
+                    <div class="day-cell">3<div class="event-label event-work">Donnybrook</div></div>
                     
-                    <div class="day-cell">4<div class="event-label" style="background:#ffd700; color:#000;">Payment $</div></div>
-                    <div class="day-cell">5<div class="event-label event-work">Peter's Project</div></div>
-                    <div class="day-cell">6<div class="event-label event-work">Peter's Project</div></div>
-                    <div class="day-cell">7<div class="event-label event-work">Peter's Project</div></div>
-                    <div class="day-cell">8<div class="event-label event-personal">Milky 🐶</div></div>
-                    <div class="day-cell">9</div><div class="day-cell">10</div>
+                    <div class="day-cell">4<div class="event-label event-finance">Payment & Finish</div></div>
+                    <div class="day-cell">5<div class="event-label event-work">Start Peter's</div></div>
+                    <div class="day-cell">6<div class="event-label event-work">Peter's Busselton</div></div>
+                    <div class="day-cell">7<div class="event-label event-work">Mark Site Visit 🏠</div></div>
+                    <div class="day-cell">8<div class="event-label event-personal">Feed Milky 🐶</div></div>
+                    <div class="day-cell">9<div class="event-label event-work">Peter's Busselton</div></div>
+                    <div class="day-cell today">10
+                        <div class="event-label event-work">Kirsty Visit (7AM)</div>
+                        <div class="event-label event-work">Leisa Visit (10AM)</div>
+                    </div>
                     
-                    <div class="day-cell">11</div><div class="day-cell">12</div>
+                    <div class="day-cell">11<div class="event-label event-work">Mark Quote 📝</div></div>
+                    <div class="day-cell">12<div class="event-label event-work">Peter's Busselton</div></div>
                     <div class="day-cell">13<div class="event-label event-personal">Elizabeth BD 🎂</div></div>
-                    <div class="day-cell">14<div class="event-label event-work">End Project</div></div>
-                    <div class="day-cell">15</div><div class="day-cell">16</div><div class="day-cell">17</div>
+                    <div class="day-cell">14<div class="event-label event-work">Finish Peter's</div></div>
+                    <div class="day-cell">15<div class="event-label event-work">Kirsty Start (TBC)</div></div>
+                    <div class="day-cell">16</div><div class="day-cell">17</div>
+                </div>
+            </div>
+
+            <div class="section-title"><i class="fas fa-hammer"></i> ACTIVE PROJECTS</div>
+            <div class="project-grid">
+                <div class="card">
+                    <h4>Peter's Busselton</h4>
+                    <p>Main bathroom tiling. Waterproofing done. Currently tiling. Est. finish: May 14.</p>
+                </div>
+                <div class="card">
+                    <h4>Leisa Bridgetown</h4>
+                    <p>Preliminary quote $6,731. Site visit today @ 10AM to finalize measurements.</p>
+                </div>
+                <div class="card">
+                    <h4>Kirsty Glen Iris</h4>
+                    <p>Insurance repair. Site visit today @ 7AM for tile matching. Potential start: May 15.</p>
                 </div>
             </div>
         </div>
@@ -136,10 +207,14 @@
         function checkPassword() {
             const pass = document.getElementById("password").value;
             if (pass === "1802") {
-                document.getElementById("login-screen").style.display = "none";
-                document.getElementById("calendar-content").style.display = "block";
+                document.getElementById("login-screen").style.opacity = "0";
+                setTimeout(() => {
+                    document.getElementById("login-screen").style.display = "none";
+                    document.getElementById("calendar-content").style.display = "block";
+                    document.body.style.display = "block"; // Reset flex centering
+                }, 300);
             } else {
-                alert("Incorrect Password. Please try again.");
+                alert("Incorrect Access Key.");
             }
         }
     </script>
