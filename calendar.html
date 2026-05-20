@@ -4,134 +4,415 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hieu Thu Hai Hub - Restricted Access</title>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         :root {
-            --bg-dark: #0a0a0a;
+            --bg-dark: #070708;
             --accent-pink: #ff2d55;
             --accent-gold: #d4af37;
             --text-primary: #ffffff;
-            --text-secondary: #a0a0a0;
+            --text-secondary: #94a3b8;
             --glass-border: rgba(255, 255, 255, 0.05);
-            --card-bg: rgba(25, 25, 25, 0.9);
-            --pink-glow: 0 0 20px rgba(255, 45, 85, 0.3);
+            --card-bg: rgba(15, 15, 17, 0.85);
+            --pink-glow: 0 0 30px rgba(255, 45, 85, 0.25);
+            --gold-glow: 0 0 30px rgba(212, 175, 55, 0.2);
+            
+            --color-work: #ff2d55;      /* Pink */
+            --color-personal: #007aff;  /* Blue */
+            --color-available: #10b981; /* Emerald */
+            --color-finance: #eab308;   /* Yellow */
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
         }
 
         body {
-            background: radial-gradient(circle at top right, #1a0b10, #0a0a0a);
+            background: radial-gradient(circle at 80% 20%, #1e1115 0%, var(--bg-dark) 70%);
             color: var(--text-primary);
             font-family: 'Outfit', sans-serif;
             min-height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
-            margin: 0;
+            overflow-x: hidden;
         }
 
         #login-screen {
             background: var(--card-bg);
-            padding: 50px;
-            border-radius: 32px;
+            padding: 60px 40px;
+            border-radius: 28px;
             border: 1px solid var(--glass-border);
             text-align: center;
-            backdrop-filter: blur(20px);
-            box-shadow: 0 30px 60px rgba(0,0,0,0.6);
-            max-width: 450px;
+            backdrop-filter: blur(25px);
+            box-shadow: 0 30px 60px rgba(0,0,0,0.8);
+            max-width: 440px;
             width: 90%;
+            transition: all 0.5s ease;
         }
 
-        h2 { color: var(--accent-gold); margin-bottom: 25px; font-weight: 700; letter-spacing: 1px; }
-        
+        #login-screen h2 {
+            color: var(--accent-gold);
+            margin: 20px 0 10px;
+            font-weight: 700;
+            font-size: 1.8rem;
+            letter-spacing: 1px;
+        }
+
+        #login-screen p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-bottom: 30px;
+        }
+
         input {
             width: 100%;
-            padding: 18px;
-            border-radius: 15px;
+            padding: 16px;
+            border-radius: 14px;
             border: 1px solid var(--glass-border);
-            background: rgba(255,255,255,0.05);
+            background: rgba(255, 255, 255, 0.03);
             color: #fff;
-            font-size: 1.4rem;
+            font-size: 1.5rem;
             text-align: center;
             margin-bottom: 25px;
             outline: none;
             transition: 0.3s;
+            letter-spacing: 4px;
         }
-        input:focus { border-color: var(--accent-pink); box-shadow: var(--pink-glow); }
+        input:focus { 
+            border-color: var(--accent-pink); 
+            box-shadow: var(--pink-glow);
+            background: rgba(255, 255, 255, 0.06);
+        }
 
         .btn-access {
             width: 100%;
-            padding: 18px;
-            border-radius: 15px;
+            padding: 16px;
+            border-radius: 14px;
             border: none;
-            background: linear-gradient(135deg, var(--accent-pink), #ff758c);
+            background: linear-gradient(135deg, var(--accent-pink), #ff5e7e);
             color: #fff;
             font-weight: 700;
             font-size: 1.1rem;
             cursor: pointer;
-            transition: 0.3s;
+            transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
             box-shadow: var(--pink-glow);
         }
-        .btn-access:hover { transform: translateY(-3px); box-shadow: 0 15px 30px rgba(255, 45, 85, 0.5); }
+        .btn-access:hover { 
+            transform: translateY(-3px); 
+            box-shadow: 0 15px 30px rgba(255, 45, 85, 0.5); 
+        }
 
-        #calendar-content { display: none; width: 100%; padding: 60px 5vw; min-height: 100vh; background: transparent; }
+        /* Dashboard Container */
+        #calendar-content { 
+            display: none; 
+            width: 100%; 
+            padding: 40px 2rem; 
+            min-height: 100vh; 
+            background: transparent; 
+        }
 
-        .container { max-width: 1300px; margin: 0 auto; }
+        .container { 
+            max-width: 1300px; 
+            margin: 0 auto; 
+        }
 
         header {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 50px;
+            margin-bottom: 40px;
             padding-bottom: 20px;
             border-bottom: 1px solid var(--glass-border);
         }
 
-        .logo h1 { font-size: 2.2rem; font-weight: 800; color: var(--accent-pink); text-shadow: var(--pink-glow); }
-        .logo span { font-size: 0.75rem; color: var(--accent-gold); text-transform: uppercase; letter-spacing: 5px; }
-
-        /* Calendar Grid */
-        .visual-calendar {
-            background: var(--card-bg);
-            border: 1px solid var(--glass-border);
-            border-radius: 28px;
-            padding: 35px;
-            margin-bottom: 60px;
-            box-shadow: 0 25px 50px rgba(0,0,0,0.5);
+        .logo h1 { 
+            font-size: 2rem; 
+            font-weight: 800; 
+            color: var(--accent-pink); 
+            text-shadow: var(--pink-glow); 
+            letter-spacing: -0.02em;
+        }
+        .logo span { 
+            font-size: 0.75rem; 
+            color: var(--accent-gold); 
+            text-transform: uppercase; 
+            letter-spacing: 5px; 
+            font-weight: 600;
         }
 
-        .grid-7 { display: grid; grid-template-columns: repeat(7, 1fr); gap: 1px; background: var(--glass-border); border: 1px solid var(--glass-border); }
-        .day-name { background: #111; padding: 15px; text-align: center; font-size: 0.8rem; font-weight: 700; color: var(--text-secondary); }
-        .day-cell { background: #0d0d0d; min-height: 120px; padding: 12px; font-size: 0.9rem; color: var(--text-secondary); transition: 0.2s; }
-        .day-cell:hover { background: #161616; }
-        .day-cell.today { background: rgba(212, 175, 55, 0.05); box-shadow: inset 0 0 0 1px var(--accent-gold); }
-        .day-num { font-weight: 700; margin-bottom: 8px; }
+        .btn-logout { 
+            padding: 10px 20px; 
+            background: rgba(255, 255, 255, 0.02); 
+            border: 1px solid var(--glass-border); 
+            border-radius: 10px; 
+            color: var(--text-secondary); 
+            cursor: pointer; 
+            font-size: 0.9rem; 
+            font-weight: 600;
+            transition: 0.2s;
+        }
+        .btn-logout:hover { 
+            background: rgba(255, 45, 85, 0.1); 
+            border-color: var(--accent-pink); 
+            color: #fff;
+        }
 
-        .event-label { font-size: 0.7rem; padding: 4px 8px; border-radius: 5px; color: #fff; font-weight: 600; margin-top: 5px; line-height: 1.2; }
-        .event-work { background: var(--accent-pink); }
-        .event-personal { background: #007aff; }
-        .event-finance { background: #ffd700; color: #000; }
+        /* Tabs for Months */
+        .month-tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .tab-btn {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid var(--glass-border);
+            color: var(--text-secondary);
+            padding: 12px 24px;
+            border-radius: 12px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        .tab-btn.active {
+            background: var(--accent-gold);
+            color: var(--bg-dark);
+            border-color: var(--accent-gold);
+            box-shadow: var(--gold-glow);
+        }
+
+        /* Calendar Grid */
+        .calendar-section {
+            display: none;
+            background: var(--card-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 24px;
+            padding: 30px;
+            margin-bottom: 40px;
+            box-shadow: 0 25px 50px rgba(0,0,0,0.5);
+            backdrop-filter: blur(20px);
+        }
+
+        .calendar-section.active {
+            display: block;
+        }
+
+        .calendar-title {
+            font-size: 1.75rem;
+            font-weight: 800;
+            color: var(--accent-gold);
+            margin-bottom: 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .legends {
+            display: flex;
+            gap: 15px;
+            font-size: 0.8rem;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            color: var(--text-secondary);
+            font-weight: 600;
+        }
+
+        .legend-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+        }
+
+        .grid-7 { 
+            display: grid; 
+            grid-template-columns: repeat(7, 1fr); 
+            gap: 1px; 
+            background: rgba(255, 255, 255, 0.05); 
+            border: 1px solid var(--glass-border);
+            border-radius: 16px;
+            overflow: hidden;
+        }
+
+        .day-name { 
+            background: #0b0b0d; 
+            padding: 15px; 
+            text-align: center; 
+            font-size: 0.75rem; 
+            font-weight: 700; 
+            color: var(--text-secondary); 
+            letter-spacing: 1px;
+        }
+
+        .day-cell { 
+            background: #0f0f12; 
+            min-height: 120px; 
+            padding: 12px; 
+            font-size: 0.9rem; 
+            color: var(--text-secondary); 
+            transition: 0.2s; 
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+        .day-cell:hover { 
+            background: #18181f; 
+        }
+        .day-cell.today { 
+            background: rgba(212, 175, 55, 0.03); 
+            box-shadow: inset 0 0 0 1px var(--accent-gold); 
+        }
+        .day-cell.other-month {
+            opacity: 0.25;
+        }
+
+        .day-num { 
+            font-weight: 700; 
+            margin-bottom: 6px; 
+            color: #fff;
+        }
+        .day-cell.today .day-num {
+            color: var(--accent-gold);
+        }
+
+        .event-label { 
+            font-size: 0.68rem; 
+            padding: 4px 8px; 
+            border-radius: 6px; 
+            color: #fff; 
+            font-weight: 600; 
+            line-height: 1.25;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+        .event-work { background: var(--color-work); }
+        .event-personal { background: var(--color-personal); }
+        .event-available { background: var(--color-available); }
+        .event-finance { background: var(--color-finance); color: #000; }
 
         /* Projects Section */
-        .section-title { margin: 50px 0 25px; font-size: 1.8rem; font-weight: 800; display: flex; align-items: center; gap: 20px; }
+        .section-title { 
+            margin: 40px 0 20px; 
+            font-size: 1.5rem; 
+            font-weight: 800; 
+            display: flex; 
+            align-items: center; 
+            gap: 15px; 
+            letter-spacing: -0.01em;
+        }
         .section-title i { color: var(--accent-pink); }
-        .section-title::after { content: ''; flex: 1; height: 1px; background: var(--glass-border); }
+        .section-title::after { 
+            content: ''; 
+            flex: 1; 
+            height: 1px; 
+            background: var(--glass-border); 
+        }
 
-        .project-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px; }
-        .card { background: var(--card-bg); border: 1px solid var(--glass-border); border-radius: 20px; padding: 25px; transition: 0.3s; }
-        .card:hover { transform: translateY(-10px); border-color: var(--accent-pink); }
-        .card h4 { font-size: 1.3rem; margin-bottom: 12px; color: var(--accent-gold); }
-        .card p { font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6; }
+        .project-grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); 
+            gap: 20px; 
+        }
 
-        .btn-logout { width: auto; padding: 10px 20px; background: rgba(255,255,255,0.05); border: 1px solid var(--glass-border); border-radius: 10px; color: #fff; cursor: pointer; font-size: 0.9rem; }
-        .btn-logout:hover { background: rgba(255,45,85,0.1); border-color: var(--accent-pink); }
+        .card { 
+            background: var(--card-bg); 
+            border: 1px solid var(--glass-border); 
+            border-radius: 20px; 
+            padding: 25px; 
+            transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1); 
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .card:hover { 
+            transform: translateY(-8px); 
+            border-color: var(--accent-pink); 
+            box-shadow: var(--pink-glow);
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .card h4 { 
+            font-size: 1.25rem; 
+            color: var(--accent-gold); 
+            font-weight: 700;
+        }
+
+        .card-date {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            font-weight: 600;
+            background: rgba(255,255,255,0.05);
+            padding: 4px 10px;
+            border-radius: 6px;
+        }
+
+        .card p { 
+            font-size: 0.9rem; 
+            color: var(--text-secondary); 
+            line-height: 1.6; 
+        }
+
+        .card-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: auto;
+            padding-top: 12px;
+            border-top: 1px solid rgba(255,255,255,0.03);
+        }
+
+        .card-location {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--accent-pink);
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .card-status {
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            padding: 4px 10px;
+            border-radius: 6px;
+        }
+
+        .status-prog { background: rgba(0, 122, 255, 0.15); color: #30d158; }
+        .status-bk { background: rgba(255, 45, 85, 0.15); color: var(--accent-pink); }
+        .status-done { background: rgba(16, 185, 129, 0.15); color: #10b981; }
+
+        @media (max-width: 768px) {
+            #calendar-content { padding: 20px 1rem; }
+            .grid-7 { border-radius: 8px; }
+            .day-cell { min-height: 90px; padding: 6px; font-size: 0.8rem; }
+            .event-label { font-size: 0.6rem; padding: 2px 4px; }
+            .project-grid { grid-template-columns: 1fr; }
+            header { flex-direction: column; gap: 20px; text-align: center; }
+        }
     </style>
 </head>
 <body>
 
     <div id="login-screen">
-        <i class="fas fa-fingerprint" style="font-size: 4rem; color: var(--accent-pink); margin-bottom: 25px; text-shadow: var(--pink-glow);"></i>
+        <i class="fas fa-fingerprint" style="font-size: 4rem; color: var(--accent-pink); text-shadow: var(--pink-glow);"></i>
         <h2>Private Hub Access</h2>
-        <p style="color: #888; margin-bottom: 30px; font-size: 0.95rem;">Authentication required for Schedule & Active Projects.</p>
+        <p>Authentication required for Schedule & Active Projects.</p>
         <input type="password" id="password" placeholder="••••" onkeypress="if(event.key === 'Enter') checkPassword()">
         <button class="btn-access" onclick="checkPassword()">UNSEAL ACCESS</button>
     </div>
@@ -146,58 +427,192 @@
                 <button class="btn-logout" onclick="location.reload()"><i class="fas fa-sign-out-alt"></i> Logout</button>
             </header>
 
-            <div class="visual-calendar">
-                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px;">
-                    <div style="font-size: 2.2rem; font-weight: 800; color: var(--accent-gold);">May 2026</div>
-                    <div style="font-size: 0.8rem; display: flex; gap: 20px;">
-                        <span><i class="fas fa-square" style="color: var(--accent-pink);"></i> Work</span>
-                        <span><i class="fas fa-square" style="color: #007aff;"></i> Personal</span>
+            <!-- Month Tabs -->
+            <div class="month-tabs">
+                <button class="tab-btn active" onclick="switchMonth('may')">May 2026</button>
+                <button class="tab-btn" onclick="switchMonth('june')">June 2026</button>
+            </div>
+
+            <!-- MAY CALENDAR -->
+            <div id="month-may" class="calendar-section active">
+                <div class="calendar-title">
+                    <span>May 2026</span>
+                    <div class="legends">
+                        <span class="legend-item"><span class="legend-dot" style="background: var(--color-work);"></span> Work</span>
+                        <span class="legend-item"><span class="legend-dot" style="background: var(--color-personal);"></span> Personal</span>
+                        <span class="legend-item"><span class="legend-dot" style="background: var(--color-available);"></span> Open</span>
                     </div>
                 </div>
                 
                 <div class="grid-7">
                     <div class="day-name">MON</div><div class="day-name">TUE</div><div class="day-name">WED</div><div class="day-name">THU</div><div class="day-name">FRI</div><div class="day-name">SAT</div><div class="day-name">SUN</div>
                     
-                    <div class="day-cell">27</div><div class="day-cell">28</div>
-                    <div class="day-cell">29<div class="event-label event-work">Donnybrook Start</div></div>
-                    <div class="day-cell">30<div class="event-label event-work">Donnybrook</div><div class="event-label event-personal">Dr Quach @ 2:30PM</div></div>
-                    <div class="day-cell">1<div class="event-label event-work">Donnybrook</div></div>
-                    <div class="day-cell">2<div class="event-label event-work">Donnybrook</div></div>
-                    <div class="day-cell">3<div class="event-label event-work">Donnybrook</div></div>
+                    <!-- Calendar cells -->
+                    <div class="day-cell other-month"><span class="day-num">27</span></div>
+                    <div class="day-cell other-month"><span class="day-num">28</span></div>
+                    <div class="day-cell other-month"><span class="day-num">29</span></div>
+                    <div class="day-cell other-month"><span class="day-num">30</span></div>
+                    <div class="day-cell"><span class="day-num">1</span></div>
+                    <div class="day-cell"><span class="day-num">2</span></div>
+                    <div class="day-cell"><span class="day-num">3</span></div>
                     
-                    <div class="day-cell">4<div class="event-label event-finance">Payment & Finish</div></div>
-                    <div class="day-cell">5<div class="event-label event-work">Start Peter's</div></div>
-                    <div class="day-cell">6<div class="event-label event-work">Peter's Busselton</div></div>
-                    <div class="day-cell">7<div class="event-label event-work">Mark Site Visit 🏠</div></div>
-                    <div class="day-cell">8<div class="event-label event-personal">Feed Milky 🐶</div></div>
-                    <div class="day-cell">9<div class="event-label event-work">Peter's Busselton</div></div>
-                    <div class="day-cell today">10
-                        <div class="event-label event-work">Kirsty Visit (7AM)</div>
-                        <div class="event-label event-work">Leisa Visit (10AM)</div>
-                    </div>
+                    <div class="day-cell"><span class="day-num">4</span><div class="event-label event-finance">Donnybrook Quyết toán ✅</div></div>
+                    <div class="day-cell"><span class="day-num">5</span></div>
+                    <div class="day-cell"><span class="day-num">6</span></div>
+                    <div class="day-cell"><span class="day-num">7</span></div>
+                    <div class="day-cell"><span class="day-num">8</span><div class="event-label event-personal">Milky Dog 🐶</div></div>
+                    <div class="day-cell"><span class="day-num">9</span></div>
+                    <div class="day-cell"><span class="day-num">10</span></div>
                     
-                    <div class="day-cell">11<div class="event-label event-work">Mark Quote 📝</div></div>
-                    <div class="day-cell">12<div class="event-label event-work">Peter's Busselton</div></div>
-                    <div class="day-cell">13<div class="event-label event-personal">Elizabeth BD 🎂</div></div>
-                    <div class="day-cell">14<div class="event-label event-work">Finish Peter's</div></div>
-                    <div class="day-cell">15<div class="event-label event-work">Kirsty Start (TBC)</div></div>
-                    <div class="day-cell">16</div><div class="day-cell">17</div>
+                    <div class="day-cell"><span class="day-num">11</span><div class="event-label event-work">Start Peter's</div></div>
+                    <div class="day-cell"><span class="day-num">12</span><div class="event-label event-work">Peter's Busselton</div></div>
+                    <div class="day-cell"><span class="day-num">13</span><div class="event-label event-personal">Elizabeth BD 🎂</div><div class="event-label event-work">Peter's Busselton</div></div>
+                    <div class="day-cell"><span class="day-num">14</span><div class="event-label event-work">Peter's Busselton</div></div>
+                    <div class="day-cell"><span class="day-num">15</span><div class="event-label event-work">Peter's Busselton</div></div>
+                    <div class="day-cell"><span class="day-num">16</span><div class="event-label event-work">Peter's Busselton</div></div>
+                    <div class="day-cell"><span class="day-num">17</span><div class="event-label event-work">Peter's Busselton</div></div>
+                    
+                    <div class="day-cell"><span class="day-num">18</span><div class="event-label event-work">Peter's Busselton</div></div>
+                    <div class="day-cell"><span class="day-num">19</span><div class="event-label event-work">Peter's Busselton</div><div class="event-label event-work">Chốt Mreee 🚀</div></div>
+                    <div class="day-cell today"><span class="day-num">20</span><div class="event-label event-work">Peter's Busselton</div><div class="event-label event-personal">Hôm nay 📍</div></div>
+                    <div class="day-cell"><span class="day-num">21</span><div class="event-label event-work">Finish Peter's 🏁</div></div>
+                    <div class="day-cell"><span class="day-num">22</span><div class="event-label event-work">Start Mreee (Carey)</div></div>
+                    <div class="day-cell"><span class="day-num">23</span><div class="event-label event-work">Mreee Carey Park</div></div>
+                    <div class="day-cell"><span class="day-num">24</span></div>
+                    
+                    <div class="day-cell"><span class="day-num">25</span><div class="event-label event-work">Mreee Carey Park</div></div>
+                    <div class="day-cell"><span class="day-num">26</span><div class="event-label event-work">Mreee Carey Park</div></div>
+                    <div class="day-cell"><span class="day-num">27</span><div class="event-label event-work">Mreee Carey Park</div></div>
+                    <div class="day-cell"><span class="day-num">28</span><div class="event-label event-work">Mreee Carey Park</div></div>
+                    <div class="day-cell"><span class="day-num">29</span><div class="event-label event-work">Kirsty Glen Iris Visit</div><div class="event-label event-work">Mreee Carey Park</div></div>
+                    <div class="day-cell"><span class="day-num">30</span><div class="event-label event-work">Mreee Carey Park</div></div>
+                    <div class="day-cell"><span class="day-num">31</span></div>
                 </div>
             </div>
 
-            <div class="section-title"><i class="fas fa-hammer"></i> ACTIVE PROJECTS</div>
+            <!-- JUNE CALENDAR -->
+            <div id="month-june" class="calendar-section">
+                <div class="calendar-title">
+                    <span>June 2026</span>
+                    <div class="legends">
+                        <span class="legend-item"><span class="legend-dot" style="background: var(--color-work);"></span> Work</span>
+                        <span class="legend-item"><span class="legend-dot" style="background: var(--color-personal);"></span> Personal</span>
+                        <span class="legend-item"><span class="legend-dot" style="background: var(--color-available);"></span> Open</span>
+                    </div>
+                </div>
+                
+                <div class="grid-7">
+                    <div class="day-name">MON</div><div class="day-name">TUE</div><div class="day-name">WED</div><div class="day-name">THU</div><div class="day-name">FRI</div><div class="day-name">SAT</div><div class="day-name">SUN</div>
+                    
+                    <!-- Calendar cells -->
+                    <div class="day-cell"><span class="day-num">1</span><div class="event-label event-work">Mreee Carey Park</div></div>
+                    <div class="day-cell"><span class="day-num">2</span><div class="event-label event-work">Mreee Carey Park</div></div>
+                    <div class="day-cell"><span class="day-num">3</span><div class="event-label event-work">Mreee Carey Park</div></div>
+                    <div class="day-cell"><span class="day-num">4</span><div class="event-label event-work">Mreee Carey Park</div></div>
+                    <div class="day-cell"><span class="day-num">5</span><div class="event-label event-work">Mreee Carey Park</div></div>
+                    <div class="day-cell"><span class="day-num">6</span><div class="event-label event-work">Mreee Carey Park</div></div>
+                    <div class="day-cell"><span class="day-num">7</span></div>
+                    
+                    <div class="day-cell"><span class="day-num">8</span><div class="event-label event-work">Mreee Carey Park</div></div>
+                    <div class="day-cell"><span class="day-num">9</span><div class="event-label event-work">Mreee Carey Park</div></div>
+                    <div class="day-cell"><span class="day-num">10</span><div class="event-label event-work">Mreee Carey Park</div></div>
+                    <div class="day-cell"><span class="day-num">11</span><div class="event-label event-work">Mreee Carey Park</div></div>
+                    <div class="day-cell"><span class="day-num">12</span><div class="event-label event-work">Mreee Carey Park</div></div>
+                    <div class="day-cell"><span class="day-num">13</span><div class="event-label event-work">Mreee Carey Park</div></div>
+                    <div class="day-cell"><span class="day-num">14</span></div>
+                    
+                    <div class="day-cell"><span class="day-num">15</span><div class="event-label event-work">Mreee Carey Finish 🏁</div></div>
+                    <div class="day-cell available"><span class="day-num">16</span><div class="event-label event-available">Available Slot 🟢</div></div>
+                    <div class="day-cell available"><span class="day-num">17</span><div class="event-label event-available">Available Slot 🟢</div></div>
+                    <div class="day-cell available"><span class="day-num">18</span><div class="event-label event-available">Available Slot 🟢</div></div>
+                    <div class="day-cell available"><span class="day-num">19</span><div class="event-label event-available">Available Slot 🟢</div></div>
+                    <div class="day-cell available"><span class="day-num">20</span><div class="event-label event-available">Available Slot 🟢</div></div>
+                    <div class="day-cell available"><span class="day-num">21</span><div class="event-label event-available">Available Slot 🟢</div></div>
+                    
+                    <div class="day-cell"><span class="day-num">22</span><div class="event-label event-work">Start Australind</div></div>
+                    <div class="day-cell"><span class="day-num">23</span><div class="event-label event-work">Matara Australind</div></div>
+                    <div class="day-cell"><span class="day-num">24</span><div class="event-label event-work">Matara Australind</div></div>
+                    <div class="day-cell"><span class="day-num">25</span><div class="event-label event-work">Matara Australind</div></div>
+                    <div class="day-cell"><span class="day-num">26</span><div class="event-label event-work">Matara Australind</div></div>
+                    <div class="day-cell"><span class="day-num">27</span><div class="event-label event-work">Finish Australind 🏁</div></div>
+                    <div class="day-cell"><span class="day-num">28</span></div>
+                    
+                    <div class="day-cell"><span class="day-num">29</span><div class="event-label event-work">Start Eaton (Mid City)</div></div>
+                    <div class="day-cell"><span class="day-num">30</span><div class="event-label event-work">Eaton (Mid City)</div></div>
+                    <div class="day-cell other-month"><span class="day-num">1</span></div>
+                    <div class="day-cell other-month"><span class="day-num">2</span></div>
+                    <div class="day-cell other-month"><span class="day-num">3</span></div>
+                    <div class="day-cell other-month"><span class="day-num">4</span></div>
+                    <div class="day-cell other-month"><span class="day-num">5</span></div>
+                </div>
+            </div>
+
+            <!-- ACTIVE PROJECTS OVERVIEW -->
+            <div class="section-title"><i class="fas fa-hammer"></i> ACTIVE PROJECTS OVERVIEW</div>
             <div class="project-grid">
+                <!-- Project 1 -->
                 <div class="card">
-                    <h4>Peter's Busselton</h4>
-                    <p>Main bathroom tiling. Waterproofing done. Currently tiling. Est. finish: May 14.</p>
+                    <div class="card-header">
+                        <h4>Peter's Busselton</h4>
+                        <span class="card-date">11/05 – 21/05</span>
+                    </div>
+                    <p>Main bathroom & whole house tiling. Premium finish chốt vật tư hoàn tất đúng hạn bàn giao.</p>
+                    <div class="card-footer">
+                        <span class="card-location"><i class="fas fa-map-marker-alt"></i> Busselton, WA</span>
+                        <span class="card-status status-done">Done</span>
+                    </div>
                 </div>
+
+                <!-- Project 2 -->
                 <div class="card">
-                    <h4>Leisa Bridgetown</h4>
-                    <p>Preliminary quote $6,731. Site visit today @ 10AM to finalize measurements.</p>
+                    <div class="card-header">
+                        <h4>Mreee's Carey Park</h4>
+                        <span class="card-date">22/05 – 15/06</span>
+                    </div>
+                    <p>Cải tạo Laundry & Toilet. Đã chốt phương án Capped Hourly ngày 19/05. Sẵn sàng vật tư thi công.</p>
+                    <div class="card-footer">
+                        <span class="card-location"><i class="fas fa-map-marker-alt"></i> Carey Park, WA</span>
+                        <span class="card-status status-bk">Active Job</span>
+                    </div>
                 </div>
+
+                <!-- Project 3 -->
                 <div class="card">
-                    <h4>Kirsty Glen Iris</h4>
-                    <p>Insurance repair. Site visit today @ 7AM for tile matching. Potential start: May 15.</p>
+                    <div class="card-header">
+                        <h4>Matara Burges</h4>
+                        <span class="card-date">22/06 – 27/06</span>
+                    </div>
+                    <p>Ốp lát toàn sàn chính và bếp giật cấp Mitred splashback. Khách hàng đã chốt lịch chính thức.</p>
+                    <div class="card-footer">
+                        <span class="card-location"><i class="fas fa-map-marker-alt"></i> Australind, WA</span>
+                        <span class="card-status status-bk">Booked</span>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Eaton (Mid City)</h4>
+                        <span class="card-date">29/06 – 10/07</span>
+                    </div>
+                    <p>Hợp đồng thi công các Wet Areas dự án của tập đoàn Mid City. Mã thầu Job No: 69271.</p>
+                    <div class="card-footer">
+                        <span class="card-location"><i class="fas fa-map-marker-alt"></i> Eaton, WA</span>
+                        <span class="card-status status-bk">Booked</span>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Daniel Parker</h4>
+                        <span class="card-date">12/07 – 20/07</span>
+                    </div>
+                    <p>Cải tạo phần kết cấu Laundry & Toilet. Công việc đã chốt lịch, chuẩn bị các hạng mục đục phá và lát mới.</p>
+                    <div class="card-footer">
+                        <span class="card-location"><i class="fas fa-map-marker-alt"></i> Boyanup, WA</span>
+                        <span class="card-status status-bk">Booked</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -211,10 +626,27 @@
                 setTimeout(() => {
                     document.getElementById("login-screen").style.display = "none";
                     document.getElementById("calendar-content").style.display = "block";
-                    document.body.style.display = "block"; // Reset flex centering
+                    document.body.style.display = "block"; 
                 }, 300);
             } else {
                 alert("Incorrect Access Key.");
+            }
+        }
+
+        function switchMonth(month) {
+            document.querySelectorAll('.calendar-section').forEach(sec => {
+                sec.classList.remove('active');
+            });
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+
+            if (month === 'may') {
+                document.getElementById('month-may').classList.add('active');
+                event.target.classList.add('active');
+            } else if (month === 'june') {
+                document.getElementById('month-june').classList.add('active');
+                event.target.classList.add('active');
             }
         }
     </script>

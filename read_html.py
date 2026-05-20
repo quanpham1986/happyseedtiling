@@ -1,6 +1,8 @@
 import re
+import os
 
-file_path = r"c:\Users\ASUS ROG F15\OneDrive\Desktop\Tiling Business\06_Marketing_Portfolio\Website_Source\index.html"
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+file_path = os.path.join(SCRIPT_DIR, "index.html")
 
 with open(file_path, "r", encoding="utf-8") as f:
     lines = f.readlines()

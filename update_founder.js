@@ -1,8 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const rootDir = "c:/Users/ASUS ROG F15/OneDrive/Desktop/Tiling Business";
-const webDir = path.join(rootDir, "06_Marketing_Portfolio", "Website_Source");
+const webDir = __dirname;
+const rootDir = path.resolve(webDir, "..", "..", "..");
 const imgDir = path.join(webDir, "assets");
 
 // Create assets directory if not exists
@@ -15,8 +15,8 @@ const logoDest = path.join(imgDir, "logo.jpg");
 const portraitDest = path.join(imgDir, "Hinhchandung.jpg");
 
 // Source paths
-const logoSrc = path.join(rootDir, "04_Templates_Assets", "logo.jpg");
-const portraitSrc = path.join(rootDir, "01_Before_After_Photos", "Hinhchandung.jpg");
+const logoSrc = path.join(rootDir, "09_Templates_Assets", "logo.jpg");
+const portraitSrc = path.join(rootDir, "07_Operations_Marketing", "03_Marketing_Outreach", "Marketing_Branding", "Marketing_Portfolio", "Before_After_Photos", "Hinhchandung.jpg");
 
 // Copy files
 try {
