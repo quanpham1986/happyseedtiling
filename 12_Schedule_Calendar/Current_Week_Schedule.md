@@ -1,4 +1,4 @@
-# 📅 Lịch Làm Việc & Thi Công (Cập Nhật Ngày 23/05/2026)
+# 📅 Lịch Làm Việc & Thi Công (Cập Nhật Ngày 31/05/2026)
 
 ### 🏗️ LỊCH TRÌNH THI CÔNG NGẮN HẠN
 
@@ -9,7 +9,7 @@
 **Chủ Nhật (24/05/2026) - Thứ 3 (26/05/2026):**
 - Thi công nhà **anh Brad (Peppermint Grove Beach)** ốp lát khu vực hoàn thiện.
 - **Thời gian:** 24, 25, 26 tháng 5.
-- **Trạng thái:** Đã chốt lịch, vật tư chuẩn bị sẵn sàng 🔨.
+- **Trạng thái:** HOÀN THÀNH XUẤT SẮC ngày 26/05/2026 ✅.
 
 **Thứ 4 (27/05/2026) - Thứ 7 (30/05/2026):**
 - Thi công nhà **Felix (Bunbury Region)** cải tạo và ốp lát.
