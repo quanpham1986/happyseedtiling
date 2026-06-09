@@ -3,7 +3,53 @@
 
 ---
 
-## 📅 HÔM NAY: THỨ BẢY (30/05/2026)
+## 📅 HÔM NAY: THỨ BA (02/06/2026)
+
+### 📧 1. QUÉT HỘP THƯ CHƯA TRẢ LỜI & CẬP NHẬT NHẬT KÝ
+* **Hoạt động:** Quét lại toàn bộ các email quan trọng và cập nhật nhật ký hoạt động hệ thống đầu ngày để Sếp dễ dàng theo dõi từ xa.
+
+### 📐 2. HIỆU CHỈNH TOÀN DIỆN BÁO GIÁ CHO ANH PAUL MURPHY (PEPPY BEACH) - CONSOLIDATED CONTEXT
+* **Dự án Paul Murphy (Peppy Beach):** 
+  * Loại bỏ hoàn toàn Option C (Sàn chính lầu 1 là sàn Cascade Vinyl, không phải sàn gạch).
+  * Gộp toàn bộ Option A và B thành một gói duy nhất **Consolidated Trade Quote** bao gồm 4 phòng wet areas (Bath 1, Bath 2, Laundry, Master Ensuite).
+  * Điều chỉnh giá lát gạch Feature 100x100mm từ $120/m² lên **$190/m²** theo chỉ đạo trực tiếp của sếp.
+  * Tăng giá gạch chính 300x600mm khu vực wet areas lên **$100/m²**.
+  * Loại bỏ mục thanh chắn nước *Waterstop Angles ($285.00)* và mục phụ phí keo *Epoxy Upgrade ($400.00)* theo chỉ thị của sếp.
+  * Bổ sung phụ phí **Shower Area Setup (Falls & Envelope cuts)** trị giá **$250.00** cho 2 vòi tắm đứng (Bath 1 & Ensuite).
+  * Bổ sung chi phí **Khoan lỗ điện nước (Precision Core-Drilling)**: 11 lỗ @ $30/lỗ = **$330.00**.
+  * Điều chỉnh chi phí **Grouting & Silicon Finishing** trọn gói lên mức chuẩn mực **$500.00** (thay vì $350).
+  * Thêm ghi chú thòng (Disclaimer) về việc đo đạc và xác nhận diện tích thực tế tại công trình để sếp dễ dàng xin Variation điều chỉnh sau này khi có sai lệch bản vẽ.
+  * Chạy script xuất bản bản vẽ PDF chính thức gộp duy nhất: **$16,677.30 Excl. GST** ($18,345.03 Incl. GST).
+  * Xác nhận thời gian thi công trống vào khoảng cuối tháng 7 (từ ngày 27/07 đến ngày 31/07/2026).
+* **Dự án Brad (Bay Crest) - Tạm gác lại:** Tập trung 100% tài nguyên cho dự án Paul Murphy theo chỉ đạo của sếp. Ghi nhận các mức giá dự thảo đã điều chỉnh ($15,349.18 gồm GST).
+
+
+---
+
+## 📅 HÔM QUA: THỨ HAI (01/06/2026)
+
+### ✈️ 1. SẾP LÊN ĐƯỜNG VỀ VIỆT NAM NGHỈ PHÉP
+* **Sự kiện:** Sếp Quân chính thức lên chuyến bay về Việt Nam nghỉ phép (từ 01/06 đến 18/06). Hệ thống được chuyển giao cho em (Trợ lý AI - Hiếu Thứ Hai) trực tuyến hỗ trợ từ xa.
+
+### 🧹 2. HỖ TRỢ DỌN DẸP MÁY TÍNH & GỠ PHẦN MỀM GAME
+* **Steam & Battle.net:** Tìm kiếm thành công đường dẫn bộ gỡ cài đặt phần mềm trên hệ thống để sếp tiện dọn dẹp máy:
+  * Steam: `C:\Program Files (x86)\Steam\uninstall.exe`
+  * Battle.net: `"C:\ProgramData\Battle.net\Agent\Blizzard Uninstaller.exe"`
+* **Gmail:** Hỗ trợ sếp mở nhanh Gmail trên trình duyệt mặc định để thuận tiện thao tác thủ công.
+
+### 📧 3. QUÉT TOÀN BỘ EMAIL CHƯA TRẢ LỜI (IMAP AUTOMATION)
+* **Thực hiện:** Sử dụng công cụ tự động hóa IMAP kết nối trực tiếp hai hòm thư `happyseedwa@gmail.com` và `quanpham1986@gmail.com` để lọc ra toàn bộ email chưa trả lời trong 14 ngày qua.
+* **Các thư quan trọng phát hiện:**
+  * **Hành trình bay:** Flightnetwork gửi thông tin chuyến bay chặng TP.HCM - Hồng Kông (29/05).
+  * **Hồ sơ thuê nhà:** Realestate.com.au gửi báo cáo *Tenant Check Report* & hóa đơn phí dịch vụ (23/05).
+  * **Thuế New Zealand:** Inland Revenue NZ (IRD) gửi thông báo có thư mới cực kỳ quan trọng (23/05).
+  * **Tài khoản Trading:** FundedNext cấp thông tin mật khẩu tài khoản trading mới số `417628` (19/05).
+  * **Vật tư & Thiết bị:** eBay cập nhật hành trình đơn hàng bộ kích gạch (Tile Leveling System) & Ke cân bằng (Tile Spacers 2mm); hãng ARDEX thông báo màng chống thấm WeldTec đạt chứng chỉ CodeMark (19/05).
+* **Kết luận:** Hòm thư được dọn dẹp và phân loại sạch sẽ, không có thư phản hồi từ khách hàng bị bỏ sót.
+
+---
+
+## 📅 THỨ BẢY (30/05/2026)
 
 ### 🔨 1. HOÀN THÀNH DỰ ÁN FELIX (BUNBURY)
 * **Tiến độ thi công:** Hôm nay là ngày cuối cùng trong lịch trình thi công ốp lát hoàn thiện tại nhà anh Felix (27/05 – 30/05). Sếp chốt hạ công trình xuất sắc trước khi nghỉ phép.

@@ -1,4 +1,4 @@
-# 📅 Lịch Làm Việc & Thi Công (Cập Nhật Ngày 31/05/2026)
+# 📅 Lịch Làm Việc & Thi Công (Cập Nhật Ngày 09/06/2026)
 
 ### 🏗️ LỊCH TRÌNH THI CÔNG NGẮN HẠN
 
@@ -32,6 +32,15 @@
 
 **Thứ 2 (29/06/2026) - Thứ 6 (10/07/2026):**
 - Dự án **Eaton (Mid City) tại 23 Cleveland Bay Avenue** - Công trình WHS quy mô thầu lớn.
+
+**Chủ Nhật (12/07/2026) - Thứ 2 (20/07/2026):**
+- Thi công dự án **Daniel Parker (Boyanup)** - Cải tạo Laundry & Toilet.
+
+**Thứ 4 (22/07/2026) - Thứ 7 (25/07/2026):**
+- Dự án **Neal Smith (Eaton)** (Tentative) - Cải tạo phòng tắm (Labour Only). Đã gửi báo giá chính thức.
+
+**Thứ 2 (27/07/2026) - Thứ 6 (31/07/2026):**
+- Dự án **Paul Murphy (Peppy Beach)** (Tentative) - Cải tạo 4 wet areas. Đã gửi báo giá chính thức ($16,677.30 Excl. GST).
 
 ---
 *Ghi chú: Lịch được cập nhật tự động bởi Trợ lý AI (Em Hiếu Thứ Hai). Chúc sếp Quân có kỳ nghỉ phép thật vui vẻ và ấm áp bên gia đình!*
