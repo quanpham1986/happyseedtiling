@@ -3,7 +3,16 @@
 
 ---
 
-## 📅 HÔM NAY: THỨ BA (02/06/2026)
+## 📅 HÔM NAY: THỨ SÁU (12/06/2026)
+
+### 🌐 1. CẬP NHẬT LỊCH TRÌNH VÀ TIẾN ĐỘ TRÊN WEBSITE
+* **Tích hợp Website:** Cập nhật file `calendar.html` (trong thư mục gốc và thư mục source), dời mốc ngày hiện tại (indicator "Hôm nay 📍") sang ngày 12/06/2026.
+* **Đồng bộ dữ liệu:** Cập nhật ngày cập nhật mới nhất cho `MASTER_TODO.md` và `Current_Week_Schedule.md` đồng bộ sang ngày 12/06/2026.
+* **Đẩy lên Web:** Tiến hành commit và push toàn bộ thay đổi lên repository chính thức. Hệ thống Cloudflare Pages tự động nhận diện thay đổi và triển khai lên website `happyseedtiling.com.au` thành công.
+
+---
+
+## 📅 THỨ BA (02/06/2026)
 
 ### 📧 1. QUÉT HỘP THƯ CHƯA TRẢ LỜI & CẬP NHẬT NHẬT KÝ
 * **Hoạt động:** Quét lại toàn bộ các email quan trọng và cập nhật nhật ký hoạt động hệ thống đầu ngày để Sếp dễ dàng theo dõi từ xa.
