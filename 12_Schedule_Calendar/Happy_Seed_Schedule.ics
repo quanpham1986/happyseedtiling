@@ -141,4 +141,49 @@ SUMMARY:✈️ Về Việt Nam (Nghỉ phép) 🇻🇳
 DESCRIPTION:Kỳ nghỉ phép về Việt Nam từ ngày 1/6 đến ngày 18/6.
 END:VEVENT
 
+BEGIN:VEVENT
+UID:20260622-matara@happyseedtiling
+DTSTAMP:20260611T000000Z
+DTSTART;VALUE=DATE:20260622
+DTEND;VALUE=DATE:20260628
+SUMMARY:Matara Burges (Australind) 🚀
+DESCRIPTION:Ốp lát toàn sàn chính và bếp giật cấp Mitred splashback. Khách hàng đã chốt lịch chính thức.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260629-eaton-midcity@happyseedtiling
+DTSTAMP:20260611T000000Z
+DTSTART;VALUE=DATE:20260629
+DTEND;VALUE=DATE:20260711
+SUMMARY:Dự án Eaton (Mid City) 🚀
+DESCRIPTION:Hợp đồng thi công các Wet Areas dự án của tập đoàn Mid City. Mã thầu Job No: 69271.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260712-daniel-parker@happyseedtiling
+DTSTAMP:20260611T000000Z
+DTSTART;VALUE=DATE:20260712
+DTEND;VALUE=DATE:20260721
+SUMMARY:Daniel Parker (Boyanup) 🚀
+DESCRIPTION:Cải tạo phần kết cấu Laundry & Toilet. Công việc đã chốt lịch.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260722-neal-smith@happyseedtiling
+DTSTAMP:20260611T000000Z
+DTSTART;VALUE=DATE:20260722
+DTEND;VALUE=DATE:20260726
+SUMMARY:Neal Smith (Eaton) ⏳
+DESCRIPTION:Thi công cải tạo ốp lát phòng tắm (Labour Only). Đã gửi báo giá chi tiết.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20260727-paul-murphy@happyseedtiling
+DTSTAMP:20260611T000000Z
+DTSTART;VALUE=DATE:20260727
+DTEND;VALUE=DATE:20260801
+SUMMARY:Paul Murphy (Peppy Beach) ⏳
+DESCRIPTION:Thi công cải tạo ốp lát 4 phòng wet areas (Bath 1, Bath 2, Laundry, Master Ensuite). Đã gửi báo giá chính thức ($16,677.30 Excl. GST).
+END:VEVENT
+
 END:VCALENDAR
