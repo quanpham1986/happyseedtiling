@@ -3,6 +3,15 @@
 
 ---
 
+## 📅 HÔM NAY: THỨ HAI (15/06/2026)
+
+### 🌐 1. CẬP NHẬT LỊCH TRÌNH VÀ TIẾN ĐỘ TRÊN WEBSITE
+* **Đồng bộ ngày hiện tại:** Dời mốc ngày hiện tại (indicator "Hôm nay 📍") trên lịch `calendar.html` sang ngày 15/06/2026. Thiết lập tháng hiển thị mặc định trên giao diện là tháng 6/2026 (June 2026).
+* **Đồng bộ dữ liệu:** Cập nhật ngày cập nhật mới nhất cho `MASTER_TODO.md` và `Current_Week_Schedule.md` sang ngày 15/06/2026.
+* **Đẩy lên Web:** Tiến hành commit và push toàn bộ thay đổi lên repository chính thức. Hệ thống Cloudflare Pages tự động nhận diện thay đổi và triển khai lên website `happyseedtiling.com.au` thành công.
+
+---
+
 ## 📅 HÔM NAY: THỨ SÁU (12/06/2026)
 
 ### 🌐 1. CẬP NHẬT LỊCH TRÌNH VÀ TIẾN ĐỘ TRÊN WEBSITE
