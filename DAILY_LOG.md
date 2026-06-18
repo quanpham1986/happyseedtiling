@@ -9,6 +9,7 @@
 * **Đồng bộ ngày hiện tại:** Dời mốc ngày hiện tại (indicator "Hôm nay 📍") trên lịch `calendar.html` sang ngày 18/06/2026.
 * **Cập nhật trạng thái nghỉ phép:** Đánh dấu hoàn thành kỳ nghỉ phép Việt Nam (01/06 - 18/06) trên `calendar.html`, `MASTER_TODO.md` và `Current_Week_Schedule.md`.
 * **Đồng bộ dữ liệu:** Cập nhật ngày cập nhật mới nhất cho `MASTER_TODO.md` và `Current_Week_Schedule.md` sang ngày 18/06/2026.
+* **Tối ưu hóa hiển thị lịch:** Loại bỏ các nhãn lịch trình Manny (WACB) trùng lặp và xung đột với các dự án thực tế đã chốt (Matara Burges, Eaton, Daniel Parker, Neal Smith) để phản ánh chính xác các ngày trống (Available Slot 🟢) và lịch thi công thực tế trên cả hai phiên bản `calendar.html`.
 * **Đẩy lên Web:** Tiến hành commit và push toàn bộ thay đổi lên repository chính thức. Hệ thống Cloudflare Pages tự động nhận diện thay đổi và triển khai lên website `happyseedtiling.com.au` thành công.
 
 ---
