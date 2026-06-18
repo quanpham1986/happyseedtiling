@@ -28,7 +28,7 @@
 - [x] **Mreee (Carey Park):** Laundry reno GĐ1. Hoàn thành xuất sắc ngày 23/05 ✅
 - [x] **Dự án Brad (Bradley Smith Builders):** 11 Bay Crest, Peppermint Grove Beach. Khách đã chốt lịch thi công hoàn thiện! Active Job: 24/05 – 26/05 🚀
 - [x] **Dự án Felix (Bunbury):** Thi công ốp lát hoàn thiện nhà Felix. Hoàn thành xuất sắc ngày 30/05/2026! ✅
-- [ ] **Nghỉ phép Việt Nam:** Về thăm gia đình từ 01/06 đến 18/06 ✈️🇻🇳
+- [x] **Nghỉ phép Việt Nam:** Về thăm gia đình từ 01/06 đến 18/06 ✈️🇻🇳 (Hoàn thành ✅)
 - [x] **Dự án Glen Iris (Kirsty):** 43 Thyme Way - Đã hoàn thành khảo sát và gửi báo giá $400 + GST ngày 29/05/2026! ✅
 - [x] **Báo giá James Hickey (Dalyellup):** Soạn & gửi báo giá sơ bộ $6,060 - $6,460 + GST (25/05) ✅
 - [x] **Báo giá Leisa (Bridgetown):** Soạn & gửi báo giá sơ bộ $6,731 Excl. GST, Capped Hourly (29/05) ✅
@@ -107,4 +107,4 @@
 ---
 
 > [!NOTE]
-> *Cập nhật lần cuối: 16/06/2026 bởi Em Hiếu Thứ Hai.*
+> *Cập nhật lần cuối: 18/06/2026 bởi Em Hiếu Thứ Hai.*

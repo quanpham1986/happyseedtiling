@@ -1,4 +1,4 @@
-# 📅 Lịch Làm Việc & Thi Công (Cập Nhật Ngày 16/06/2026)
+# 📅 Lịch Làm Việc & Thi Công (Cập Nhật Ngày 18/06/2026)
 
 ### 🏗️ LỊCH TRÌNH THI CÔNG NGẮN HẠN
 
@@ -22,7 +22,7 @@
 
 **Từ Thứ 2 (01/06/2026) đến Thứ 5 (18/06/2026):**
 - **Nghỉ phép về Việt Nam thăm gia đình** ✈️🇻🇳.
-- Tạm dừng thi công hiện trường. Bộ phận AI (Em Hiếu Thứ Hai) vẫn online hỗ trợ sếp quản lý email, chăm sóc khách hàng và chuẩn bị các báo giá mới.
+- **Trạng thái:** HOÀN THÀNH ✅.
 
 **Thứ 6 (19/06/2026) - Chủ Nhật (21/06/2026):**
 - Available Slots (Thời gian trống chuẩn bị vật tư, khảo sát thực tế các công trình tiếp theo).
@@ -43,4 +43,4 @@
 - Dự án **Paul Murphy (Peppy Beach)** (Tentative) - Cải tạo 4 wet areas. Đã gửi báo giá chính thức ($16,677.30 Excl. GST).
 
 ---
-*Ghi chú: Lịch được cập nhật tự động bởi Trợ lý AI (Em Hiếu Thứ Hai). Chúc sếp Quân có kỳ nghỉ phép thật vui vẻ và ấm áp bên gia đình!*
+*Ghi chú: Lịch được cập nhật tự động bởi Trợ lý AI (Em Hiếu Thứ Hai). Sếp Quân đã hoàn thành kỳ nghỉ phép và sẵn sàng quay trở lại công việc!*
