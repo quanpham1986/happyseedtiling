@@ -30,14 +30,14 @@
 **Thứ 7 (20/06/2026) - Thứ 7 (27/06/2026):**
 - Thi công dự án **Eaton (Mid City) tại 23 Cleveland Bay Avenue** - Công trình WHS quy mô thầu lớn (Được ưu tiên đẩy lên làm sớm từ ngày mai).
 
-**Thứ 2 (29/06/2026) - Thứ 7 (04/07/2026):**
-- Thi công dự án **Matara Burges (Australind)** - Ốp lát chính và bếp giật cấp (Dời từ lịch cũ 22/06 - 27/06).
+**Thứ 2 (29/06/2026) - Thứ 6 (10/07/2026):**
+- Thi công dự án **Daniel Parker (Boyanup)** - Cải tạo Laundry & Toilet (Làm trong 1-2 tuần ngay sau dự án Cleveland Bay).
 
-**Chủ Nhật (05/07/2026) - Thứ 7 (11/07/2026):**
-- Available Slots (Thời gian trống chuẩn bị vật tư, khảo sát công trình).
+**Thứ 2 (13/07/2026) - Thứ 7 (18/07/2026):**
+- Thi công dự án **Matara Burges (Australind)** - Ốp lát chính và bếp giật cấp (Dời để ưu tiên các dự án thầu lớn/bảo hiểm).
 
-**Chủ Nhật (12/07/2026) - Thứ 2 (20/07/2026):**
-- Thi công dự án **Daniel Parker (Boyanup)** - Cải tạo Laundry & Toilet.
+**Chủ Nhật (19/07/2026) - Thứ 3 (21/07/2026):**
+- Available Slots (Thời gian chuẩn bị vật tư, khảo sát thực tế).
 
 **Thứ 4 (22/07/2026) - Thứ 7 (25/07/2026):**
 - Dự án **Neal Smith (Eaton)** (Tentative) - Cải tạo phòng tắm (Labour Only). Đã gửi báo giá chính thức.

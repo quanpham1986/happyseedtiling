@@ -22,9 +22,9 @@
 - [ ] **Outreach Planning:** Chuẩn bị nội dung chào hàng (Capability Statement) phù hợp cho từng Builder.
 - [x] **Peter's Material Approval:** Đã chốt chi phí vật tư và hoàn thành dự án! ✅
 - [x] **Báo giá Mark (Boyanup):** 24 Payne St - Đã gửi báo giá chính thức (10/05). Chờ khách chốt. ✅
-- [x] **Matara Burges (Australind):** 130 Lucy Victoria Ave - Khách đã chốt! Active Job: 29/06 – 04/07 🚀
+- [x] **Matara Burges (Australind):** 130 Lucy Victoria Ave - Khách đã chốt! Active Job: 13/07 – 18/07 🚀
 - [x] **Dự án Eaton (Mid City):** 23 Cleveland Bay Avenue - Job No: 69271. Khách đã chốt! Active Job: 20/06 – 27/06 (Ưu tiên làm sớm) 🚀
-- [x] **Daniel Parker (Boyanup):** Laundry & Toilet reno. Khách đã chốt! Active Job: 12/07 – 20/07 🚀
+- [x] **Daniel Parker (Boyanup):** Laundry & Toilet reno. Khách đã chốt! Active Job: 29/06 – 10/07 🚀
 - [x] **Mreee (Carey Park):** Laundry reno GĐ1. Hoàn thành xuất sắc ngày 23/05 ✅
 - [x] **Dự án Brad (Bradley Smith Builders):** 11 Bay Crest, Peppermint Grove Beach. Khách đã chốt lịch thi công hoàn thiện! Active Job: 24/05 – 26/05 🚀
 - [x] **Dự án Felix (Bunbury):** Thi công ốp lát hoàn thiện nhà Felix. Hoàn thành xuất sắc ngày 30/05/2026! ✅
@@ -99,8 +99,8 @@
 
 ## 🏗️ 6. CÁC DỰ ÁN SẮP TỚI (UPCOMING PROJECTS)
 - [x] **Eaton (Mid City):** Thi công 23 Cleveland Bay Avenue (20/06 - 27/06) 🚀
-- [x] **Matara Burges (Australind):** Lát gạch chính & bếp giật cấp (29/06 - 04/07) 🚀
-- [x] **Daniel Parker (Boyanup):** Laundry & Toilet reno (12/07 - 20/07) 🚀
+- [x] **Daniel Parker (Boyanup):** Laundry & Toilet reno (29/06 - 10/07) 🚀
+- [x] **Matara Burges (Australind):** Lát gạch chính & bếp giật cấp (13/07 - 18/07) 🚀
 - [ ] **Neal Smith (Eaton):** Cải tạo phòng tắm (22/07 - 25/07) ⏳
 - [ ] **Paul Murphy (Peppy Beach):** Cải tạo 4 wet areas (27/07 - 31/07) ⏳
 
