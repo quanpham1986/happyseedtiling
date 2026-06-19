@@ -1,0 +1,58 @@
+[
+  {
+    "id": "lead_001",
+    "name": "Manny De Brito",
+    "title": "Regional Manager (South West)",
+    "company": "WA Country Builders",
+    "phone": "0411 634 894",
+    "email": "manny.debrito@wacountrybuilders.com.au",
+    "status": "Quote Sent / Awaiting Reply",
+    "source": "Direct SMS Outreach",
+    "date_added": "2026-05-22",
+    "timestamp": "2026-05-22 08:40:00",
+    "notes": "Sếp Chris đã gửi báo giá chi tiết và lịch phân kỳ thi công (Phase 1: 20/06 - 29/06, Phase 2: 12/07 - 26/07) qua email vào ngày 23/05/2026. Mức giá: Ốp lát $60/m2, Silicon $10/m2, Miter & nẹp $45/cây và góc.",
+    "next_action": "Chờ phản hồi chốt lịch và giá của Manny."
+  },
+  {
+    "id": "lead_002",
+    "name": "James Hickey",
+    "title": "Owner Builder",
+    "company": "Private Homeowner",
+    "phone": "N/A",
+    "email": "james32195@msn.com",
+    "status": "Preliminary Quote Sent",
+    "source": "Direct Email Inquiry",
+    "date_added": "2026-05-25",
+    "timestamp": "2026-05-25 21:16:55",
+    "notes": "Gửi báo giá sơ bộ $80/m2 công thợ + $200 layout fee + $500 grouting/silicon. Diện tích sàn chính Ground Floor khoảng 67-72m2 (chưa tính hiên Alfresco & Porch). Chờ khách xác nhận diện tích và yêu cầu ngoài trời.",
+    "next_action": "Chờ khách hàng phản hồi xác nhận diện tích và kích thước gạch."
+  },
+  {
+    "id": "lead_003",
+    "name": "Neal Smith",
+    "title": "Private Owner",
+    "company": "Private Homeowner",
+    "phone": "0418 202 985",
+    "email": "Neal.smith3@bigpond.com",
+    "status": "Lead Received",
+    "source": "Direct SMS Inquiry",
+    "date_added": "2026-05-26",
+    "timestamp": "2026-05-26 21:00:00",
+    "notes": "Khách muốn cải tạo trọn gói phòng tắm (tự tháo dỡ gạch cũ). Cần thợ cán nền, chống thấm, lót gạch sàn và lắp phòng tắm đứng (shower setup). Địa chỉ: 27 Polwarth Circuit, Eaton.",
+    "next_action": "Soạn email/tin nhắn chào hỏi hẹn ngày qua khảo sát thực tế và đưa mẫu gạch."
+  },
+  {
+    "id": "lead_004",
+    "name": "Jeff Builder",
+    "title": "Builder / Contractor",
+    "company": "Jeff Builder",
+    "phone": "0427 656 381",
+    "email": "N/A",
+    "status": "Lead Received / SMS Sent",
+    "source": "Met at Bunnings Warehouse",
+    "date_added": "2026-06-19",
+    "timestamp": "2026-06-19 14:05:00",
+    "notes": "Sếp Quân gặp tại Bunnings ngày 19/06/2026. Jeff khuyên sếp nên làm trọn gói Bathroom Renovation. Sếp nhắn tin cảm ơn và xin email để gửi Capability Statement & Website.",
+    "next_action": "Chờ Jeff cung cấp email để gửi Capability Statement."
+  }
+]
