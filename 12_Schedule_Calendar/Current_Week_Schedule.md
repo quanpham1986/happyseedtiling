@@ -24,14 +24,17 @@
 - **Nghỉ phép về Việt Nam thăm gia đình** ✈️🇻🇳.
 - **Trạng thái:** HOÀN THÀNH ✅.
 
-**Thứ 6 (19/06/2026) - Chủ Nhật (21/06/2026):**
-- Available Slots (Thời gian trống chuẩn bị vật tư, khảo sát thực tế các công trình tiếp theo).
+**Thứ 6 (19/06/2026):**
+- Available Slot (Thời gian trống chuẩn bị vật tư, khảo sát thực tế các công trình tiếp theo).
 
-**Thứ 2 (22/06/2026) - Thứ 7 (27/06/2026):**
-- Thi công dự án **Matara Burges (Australind)** - Ốp lát chính và bếp giật cấp.
+**Thứ 7 (20/06/2026) - Thứ 7 (27/06/2026):**
+- Thi công dự án **Eaton (Mid City) tại 23 Cleveland Bay Avenue** - Công trình WHS quy mô thầu lớn (Được ưu tiên đẩy lên làm sớm từ ngày mai).
 
-**Thứ 2 (29/06/2026) - Thứ 6 (10/07/2026):**
-- Dự án **Eaton (Mid City) tại 23 Cleveland Bay Avenue** - Công trình WHS quy mô thầu lớn.
+**Thứ 2 (29/06/2026) - Thứ 7 (04/07/2026):**
+- Thi công dự án **Matara Burges (Australind)** - Ốp lát chính và bếp giật cấp (Dời từ lịch cũ 22/06 - 27/06).
+
+**Chủ Nhật (05/07/2026) - Thứ 7 (11/07/2026):**
+- Available Slots (Thời gian trống chuẩn bị vật tư, khảo sát công trình).
 
 **Chủ Nhật (12/07/2026) - Thứ 2 (20/07/2026):**
 - Thi công dự án **Daniel Parker (Boyanup)** - Cải tạo Laundry & Toilet.
