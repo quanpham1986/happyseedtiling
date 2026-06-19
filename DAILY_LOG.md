@@ -13,6 +13,7 @@
 * **Dự án Cleveland Bay:** Quét email và tự động tải về hóa đơn mua gạch Tiles Expo (Order # 723555 - File `te_723555.pdf`) cùng các file ảnh bản vẽ mặt bằng, hiện trạng hiện trường từ Midcity Group lưu trữ vào thư mục dự án tương ứng.
 * **Dự án Neal Smith:** Trích xuất thành công 8 tệp ảnh bản vẽ kỹ thuật chi tiết từ file ghi chú PDF `Notes_260526_202103.pdf` để sếp dễ dàng tra cứu trên điện thoại.
 * **Cập nhật B2B Outreach:** Đánh dấu hoàn thành việc kết nối LinkedIn với Mike Cinkurs (WA Country Builders) trong danh sách MASTER TODO.
+* **Đồng bộ Website Schedule:** Cập nhật trạng thái kết nối LinkedIn với Mike Cinkurs thành công trên cả hai phiên bản `calendar.html` (thư mục gốc và thư mục source), đồng bộ hóa toàn bộ lịch trình, hiện trạng công việc và todolist lên trang schedule của website.
 
 ### 📽️ 3. LÊN KẾ HOẠCH NỘI DUNG VIDEO (GOPRO HERO 13)
 * **Kế hoạch quay phim:** Soạn thảo chi tiết kế hoạch quay 3 clip TikTok/Reels (chuẩn bị nền, chống thấm, lát hoàn thiện) và gửi trực tiếp qua email cho sếp để theo dõi tại công trình. Lưu trữ file `VIDEO_SHOOTING_PLAN.md` tại thư mục dự án Cleveland Bay.
