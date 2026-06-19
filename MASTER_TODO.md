@@ -6,7 +6,7 @@
 ## 🚀 TRỌNG TÂM HIỆN TẠI (HIGH PRIORITY)
 
 - [x] **Hóa đơn cô Mree (Đợt 1):** Làm hóa đơn cho cô Mree (Laundry Floor xong và đã xuất Hnry) ✅
-- [ ] **Báo giá Brett:** Soạn báo giá cho anh Brett.
+- [ ] **Báo giá Brad:** Soạn báo giá cho anh Brad (Khách hàng cũ).
 - [ ] **Báo giá khách sáng 25/05:** Soạn báo giá cho khách hàng vừa đi khảo sát thực tế sáng nay.
 - [x] **Báo giá Neal Smith (Eaton):** Soạn báo giá / Hẹn ngày khảo sát cho anh Neal Smith (27 Polwarth Circuit, Eaton) ✅ (Đã soạn & gửi báo giá chính thức ngày 26/05!)
 - [x] **Báo giá Paul Murphy (Peppy Beach):** Soạn & gửi báo giá chính thức 4 phòng wet areas ($16,677.30 Excl. GST) ngày 02/06 ✅ (Chờ khách chốt lịch thi công cuối tháng 7!)
@@ -76,7 +76,7 @@
 - [x] **Soạn tài liệu:** Hoàn thiện email chi tiết & Cover Letter tùy chỉnh cho Manny De Brito ✅ (22/05/2026)
 - [x] **Gửi báo giá & phân kỳ:** Đã gửi báo giá chính thức và lịch thi công phân kỳ Phase 1 & 2 cho Manny ✅ (23/05/2026)
 - [/] **Lên lịch gặp mặt:** Chốt lịch gặp trực tiếp Manny tại Strickland St Office để khảo sát khối lượng công việc.
-- [/] Tìm kiếm và kết nối với Mike Cinkurs (WA Country Builders) trên LinkedIn.
+- [x] Tìm kiếm và kết nối với Mike Cinkurs (WA Country Builders) trên LinkedIn (Đã hoàn thành kết nối) ✅
 - [ ] Gọi điện cho văn phòng Home Group WA (Bunbury) để xin email Construction Manager.
 - [ ] In và gửi trực tiếp Capability Statement đến văn phòng WA Country Builders (Strickland St).
 - [ ] Gửi thư ngỏ (Cover Letter) cho sếp thi công của Homegroup.

@@ -3,7 +3,23 @@
 
 ---
 
-## 📅 HÔM NAY: THỨ NĂM (18/06/2026)
+## 📅 HÔM NAY: THỨ SÁU (19/06/2026)
+
+### 🧹 1. DỌN DẸP HỆ THỐNG VÀ XÓA ỨNG DỤNG GAME
+* **Steam & Battle.net:** Gỡ sạch toàn bộ các game của Steam (thư mục steamapps\common) và Battle.net (bao gồm game StarCraft ~5.48 GB, app Battle.net và toàn bộ thư mục dữ liệu cấu hình rác liên quan) để giải phóng ổ cứng.
+* **VietPN:** Xác định vị trí và cung cấp liên kết trực tiếp cho sếp kích hoạt trình gỡ cài đặt VietPN qua quyền Administrator.
+
+### 📁 2. TÀI LIỆU DỰ ÁN CLEVELAND BAY AVENUE & NEAL SMITH
+* **Dự án Cleveland Bay:** Quét email và tự động tải về hóa đơn mua gạch Tiles Expo (Order # 723555 - File `te_723555.pdf`) cùng các file ảnh bản vẽ mặt bằng, hiện trạng hiện trường từ Midcity Group lưu trữ vào thư mục dự án tương ứng.
+* **Dự án Neal Smith:** Trích xuất thành công 8 tệp ảnh bản vẽ kỹ thuật chi tiết từ file ghi chú PDF `Notes_260526_202103.pdf` để sếp dễ dàng tra cứu trên điện thoại.
+* **Cập nhật B2B Outreach:** Đánh dấu hoàn thành việc kết nối LinkedIn với Mike Cinkurs (WA Country Builders) trong danh sách MASTER TODO.
+
+### 📽️ 3. LÊN KẾ HOẠCH NỘI DUNG VIDEO (GOPRO HERO 13)
+* **Kế hoạch quay phim:** Soạn thảo chi tiết kế hoạch quay 3 clip TikTok/Reels (chuẩn bị nền, chống thấm, lát hoàn thiện) và gửi trực tiếp qua email cho sếp để theo dõi tại công trình. Lưu trữ file `VIDEO_SHOOTING_PLAN.md` tại thư mục dự án Cleveland Bay.
+
+---
+
+## 📅 HÔM QUA: THỨ NĂM (18/06/2026)
 
 ### 🌐 1. CẬP NHẬT LỊCH TRÌNH VÀ TIẾN ĐỘ TRÊN WEBSITE
 * **Đồng bộ ngày hiện tại:** Dời mốc ngày hiện tại (indicator "Hôm nay 📍") trên lịch `calendar.html` sang ngày 18/06/2026.
