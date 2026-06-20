@@ -3,7 +3,20 @@
 
 ---
 
-## 📅 HÔM NAY: THỨ SÁU (19/06/2026)
+## 📅 HÔM NAY: THỨ BẢY (20/06/2026)
+
+### 🚀 1. KHỞI CÔNG DỰ ÁN EATON (MID CITY) - 23 CLEVELAND BAY AVENUE
+* **Tiến độ:** Chính thức bước vào ngày thi công đầu tiên của dự án Eaton (20/06 - 27/06). Chuẩn bị các hạng mục kiểm tra nền, chống thấm và thiết lập bố cục lát gạch.
+
+### 📞 2. XỬ LÝ KHÁCH HÀNG TÌM KIẾM DỊCH VỤ (LISA - BUSSELTON)
+* **Từ chối khéo:** Hỗ trợ sếp soạn tin nhắn từ chối khách hàng Lisa tại West Busselton về hạng mục sửa chữa gạch hỏng cạnh phễu thoát sàn. Xác định lỗi do sụt nền/rò rỉ ống nước bên dưới và khoảng cách di chuyển từ Bunbury quá xa cho việc sửa chữa nhỏ.
+
+### 🌐 3. ĐỒNG BỘ LỊCH TRÌNH VÀ TIẾN ĐỘ TRÊN WEBSITE
+* **Đồng bộ ngày hiện tại:** Cập nhật ngày hiện tại trên giao diện lịch `calendar.html` (cả bản gốc và bản source) sang ngày 20/06/2026 để hiển thị ngày khởi công dự án Eaton.
+
+---
+
+## 📅 HÔM QUA: THỨ SÁU (19/06/2026)
 
 ### 🧹 1. DỌN DẸP HỆ THỐNG VÀ XÓA ỨNG DỤNG GAME
 * **Steam & Battle.net:** Gỡ sạch toàn bộ các game của Steam (thư mục steamapps\common) và Battle.net (bao gồm game StarCraft ~5.48 GB, app Battle.net và toàn bộ thư mục dữ liệu cấu hình rác liên quan) để giải phóng ổ cứng.
