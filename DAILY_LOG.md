@@ -3,7 +3,18 @@
 
 ---
 
-## 📅 HÔM NAY: THỨ BẢY (20/06/2026)
+## 📅 HÔM NAY: CHỦ NHẬT (21/06/2026)
+
+### 🚀 1. TIẾN ĐỘ DỰ ÁN EATON (MID CITY) - 23 CLEVELAND BAY AVENUE
+* **Cập nhật trạng thái:** Sếp đã cập nhật tiến độ dự án Eaton trong `calendar.html` sang trạng thái **"ĐANG THI CÔNG 🚀"** (In Progress). Hiện tại đang tiến hành các khâu chuẩn bị làm sạch nền, chống thấm (waterproofing) và thiết kế bố cục (layout) lát gạch cho Wet Areas.
+
+### 🌐 2. ĐỒNG BỘ LỊCH TRÌNH VÀ TIẾN ĐỘ TRÊN WEBSITE
+* **Đồng bộ ngày hiện tại:** Dời mốc chỉ báo "Hôm nay 📍" từ ngày 20/06 sang ngày 21/06/2026 trên cả hai bản `calendar.html` (root và source) để phản ánh đúng thời gian thực.
+* **Đồng bộ dữ liệu:** Sao chép các cập nhật tiến độ của sếp từ bản calendar gốc sang thư mục website source để chuẩn bị deploy.
+
+---
+
+## 📅 HÔM QUA: THỨ BẢY (20/06/2026)
 
 ### 🚀 1. KHỞI CÔNG DỰ ÁN EATON (MID CITY) - 23 CLEVELAND BAY AVENUE
 * **Tiến độ:** Chính thức bước vào ngày thi công đầu tiên của dự án Eaton (20/06 - 27/06). Chuẩn bị các hạng mục kiểm tra nền, chống thấm và thiết lập bố cục lát gạch.
