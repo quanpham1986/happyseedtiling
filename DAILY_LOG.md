@@ -11,6 +11,7 @@
 ### 🌐 2. ĐỒNG BỘ LỊCH TRÌNH VÀ TIẾN ĐỘ TRÊN WEBSITE
 * **Đồng bộ ngày hiện tại:** Dời mốc chỉ báo "Hôm nay 📍" từ ngày 20/06 sang ngày 21/06/2026 trên cả hai bản `calendar.html` (root và source) để phản ánh đúng thời gian thực.
 * **Đồng bộ dữ liệu:** Sao chép các cập nhật tiến độ của sếp từ bản calendar gốc sang thư mục website source để chuẩn bị deploy.
+* **Đồng bộ Todo List:** Cập nhật và bổ sung các hạng mục công việc đã hoàn thành (Thư giới thiệu từ chủ thầu cũ, cấu trúc web đa trang, định vị thương hiệu Premium, Google Photos, Portfolio Grid) từ MASTER_TODO.md lên mục Schedule trên website.
 
 ---
 
