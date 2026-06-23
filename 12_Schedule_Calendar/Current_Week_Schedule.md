@@ -1,4 +1,4 @@
-# 📅 Lịch Làm Việc & Thi Công (Cập Nhật Ngày 22/06/2026)
+# 📅 Lịch Làm Việc & Thi Công (Cập Nhật Ngày 23/06/2026)
 
 ### 🏗️ LỊCH TRÌNH THI CÔNG NGẮN HẠN
 
@@ -45,6 +45,10 @@
 
 **Thứ 2 (27/07/2026) - Thứ 6 (31/07/2026):**
 - Dự án **Paul Murphy (Peppy Beach)** (Tentative) - Cải tạo 4 wet areas. Đã gửi báo giá chính thức ($16,677.30 Excl. GST).
+
+**TBD (Chờ khách phản hồi):**
+- Dự án **Mark (Myalup)** (Tentative) - Ốp lát ban công 19.44 m² (nhân công $3,065 + GST). Đã gửi báo giá 23/06.
+- Dự án **Sara Ward (Millbridge)** (Lead) - Cải tạo khu vòi sen thấm nước. Đang chờ hẹn ngày khảo sát.
 
 ---
 *Ghi chú: Lịch được cập nhật tự động bởi Trợ lý AI (Em Hiếu Thứ Hai). Sếp Quân đã hoàn thành kỳ nghỉ phép và sẵn sàng quay trở lại công việc!*

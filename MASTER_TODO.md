@@ -10,6 +10,8 @@
 - [ ] **Báo giá khách sáng 25/05:** Soạn báo giá cho khách hàng vừa đi khảo sát thực tế sáng nay.
 - [x] **Báo giá Neal Smith (Eaton):** Soạn báo giá / Hẹn ngày khảo sát cho anh Neal Smith (27 Polwarth Circuit, Eaton) ✅ (Đã soạn & gửi báo giá chính thức ngày 26/05!)
 - [x] **Báo giá Paul Murphy (Peppy Beach):** Soạn & gửi báo giá chính thức 4 phòng wet areas ($16,677.30 Excl. GST) ngày 02/06 ✅ (Chờ khách chốt lịch thi công cuối tháng 7!)
+- [x] **Báo giá Mark (Myalup):** Ban công 19.44 m² - Đã soạn & gửi báo giá nhân công $3,065 + GST (23/06). Chờ khách chốt. ✅
+- [ ] **Khảo sát Sara Ward (Millbridge):** Cải tạo khu vực vòi sen & feature wall (ngấm nước). Ước tính ~$10,000. Hẹn ngày khảo sát thực tế.
 
 
 - [x] **Mua tên miền:** `happyseedtiling.com.au` (Đã hoàn thành ✅)
@@ -103,8 +105,10 @@
 - [x] **Matara Burges (Australind):** Lát gạch chính & bếp giật cấp (13/07 - 18/07) 🚀
 - [ ] **Neal Smith (Eaton):** Cải tạo phòng tắm (22/07 - 25/07) ⏳
 - [ ] **Paul Murphy (Peppy Beach):** Cải tạo 4 wet areas (27/07 - 31/07) ⏳
+- [ ] **Mark (Myalup):** Ốp lát ban công 19.44 m² (Quoted) ⏳
+- [ ] **Sara Ward (Millbridge):** Sửa chữa chống thấm & ốp lát vòi sen (Lead) ⏳
 
 ---
 
 > [!NOTE]
-> *Cập nhật lần cuối: 19/06/2026 bởi Em Hiếu Thứ Hai.*
+> *Cập nhật lần cuối: 23/06/2026 bởi Em Hiếu Thứ Hai.*
