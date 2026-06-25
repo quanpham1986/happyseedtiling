@@ -3,6 +3,14 @@
 
 ---
 
+## 📅 HÔM NAY: THỨ NĂM (25/06/2026)
+
+### 🚀 1. ĐỒNG BỘ LỊCH TRÌNH & TIẾN ĐỘ TRÊN WEBSITE
+* **Đồng bộ ngày hiện tại:** Dời mốc chỉ báo "Hôm nay 📍" từ ngày 23/06 sang ngày 25/06/2026 trên cả hai bản `calendar.html` (root và source) để phản ánh đúng thời gian thực.
+* **Triển khai live:** Thực hiện commit và push thay đổi lên GitHub để Cloudflare tự động deploy bản cập nhật mới nhất lên website `happyseedtiling.com.au`.
+
+---
+
 ## 📅 HÔM NAY: THỨ HAI (22/06/2026)
 
 ### 🚀 1. ĐỒNG BỘ LỊCH TRÌNH & TIẾN ĐỘ TRÊN WEBSITE
