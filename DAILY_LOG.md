@@ -3,7 +3,16 @@
 
 ---
 
-## 📅 HÔM NAY: THỨ NĂM (25/06/2026)
+## 📅 HÔM NAY: THỨ SÁU (26/06/2026)
+
+### 🚀 1. ĐỒNG BỘ LỊCH TRÌNH VÀ TIẾN ĐỘ TRÊN WEBSITE
+* **Đồng bộ ngày hiện tại:** Dời mốc chỉ báo "Hôm nay 📍" từ ngày 25/06 sang ngày 26/06/2026 trên cả hai bản `calendar.html` (root và source) để phản ánh đúng thời gian thực.
+* **Cập nhật Lịch trình & Dự án mới:** Tích hợp bổ sung các dự án TBD mới gồm **Mark (Myalup)** (ban công 19.44 m²) và **Sara Ward (Millbridge)** (vòi sen ngấm nước) vào phần "CHI TIẾT LỊCH THI CÔNG & PHÉP" trên cả hai phiên bản `calendar.html` để đồng bộ hoàn toàn với `Current_Week_Schedule.md` và `MASTER_TODO.md`.
+* **Triển khai live:** Thực hiện commit và push thay đổi lên GitHub để Cloudflare tự động deploy bản cập nhật mới nhất lên website `happyseedtiling.com.au`.
+
+---
+
+## 📅 HÔM QUA: THỨ NĂM (25/06/2026)
 
 ### 🚀 1. ĐỒNG BỘ LỊCH TRÌNH & TIẾN ĐỘ TRÊN WEBSITE
 * **Đồng bộ ngày hiện tại:** Dời mốc chỉ báo "Hôm nay 📍" từ ngày 23/06 sang ngày 25/06/2026 trên cả hai bản `calendar.html` (root và source) để phản ánh đúng thời gian thực.
