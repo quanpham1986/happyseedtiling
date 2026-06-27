@@ -3,6 +3,16 @@
 
 ---
 
+## 📅 HÔM NAY: THỨ BẢY (27/06/2026)
+
+### 🚀 1. ĐỒNG BỘ LỊCH TRÌNH VÀ TIẾN ĐỘ THI CÔNG TRÊN WEBSITE
+* **Đồng bộ ngày hiện tại:** Dời mốc chỉ báo "Hôm nay 📍" từ ngày 26/06 sang ngày 27/06/2026 trên cả hai bản `calendar.html` (root và source) để phản ánh đúng thời gian thực.
+* **Hoàn thành dự án Eaton (Mid City):** Cập nhật trạng thái dự án Eaton (Cleveland Bay Ave) sang **"HOÀN THÀNH ✅"** (Done) trên cả hai bản `calendar.html` và `Current_Week_Schedule.md` do hôm nay là ngày cuối cùng trong lịch trình thi công (20/06 - 27/06).
+* **Triển khai live:** Thực hiện commit và push thay đổi lên GitHub để Cloudflare tự động deploy bản cập nhật mới nhất lên website `happyseedtiling.com.au`.
+
+---
+
+
 ## 📅 HÔM NAY: THỨ SÁU (26/06/2026)
 
 ### 🚀 1. ĐỒNG BỘ LỊCH TRÌNH VÀ TIẾN ĐỘ TRÊN WEBSITE

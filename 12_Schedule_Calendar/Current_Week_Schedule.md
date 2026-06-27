@@ -1,4 +1,4 @@
-# 📅 Lịch Làm Việc & Thi Công (Cập Nhật Ngày 23/06/2026)
+# 📅 Lịch Làm Việc & Thi Công (Cập Nhật Ngày 27/06/2026)
 
 ### 🏗️ LỊCH TRÌNH THI CÔNG NGẮN HẠN
 
@@ -29,7 +29,7 @@
 
 **Thứ 7 (20/06/2026) - Thứ 7 (27/06/2026):**
 - Thi công dự án **Eaton (Mid City) tại 23 Cleveland Bay Avenue** - Công trình WHS quy mô thầu lớn.
-- **Trạng thái:** ĐANG THI CÔNG 🚀 (Chính thức khởi công ngày đầu tiên 20/06, tiến hành kiểm tra nền, chống thấm và layout gạch).
+- **Trạng thái:** HOÀN THÀNH ✅.
 
 **Thứ 2 (29/06/2026) - Thứ 6 (10/07/2026):**
 - Thi công dự án **Daniel Parker (Boyanup)** - Cải tạo Laundry & Toilet (Làm trong 1-2 tuần ngay sau dự án Cleveland Bay).
