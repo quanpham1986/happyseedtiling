@@ -3,7 +3,17 @@
 
 ---
 
-## 📅 HÔM NAY: THỨ BẢY (27/06/2026)
+## 📅 HÔM NAY: THỨ HAI (29/06/2026)
+
+### 🚀 1. ĐỒNG BỘ LỊCH TRÌNH VÀ TIẾN ĐỘ THI CÔNG TRÊN WEBSITE
+* **Đồng bộ ngày hiện tại:** Dời mốc chỉ báo "Hôm nay 📍" từ ngày 27/06 sang ngày 29/06/2026 trên cả hai bản `calendar.html` (root và source) để phản ánh đúng thời gian thực.
+* **Cập nhật trạng thái Daniel Parker:** Chuyển trạng thái dự án cải tạo Laundry & Toilet nhà Daniel Parker (Boyanup) sang **"ĐANG THI CÔNG 🚀"** (In Progress) do công trình chính thức khởi công hôm nay (29/06).
+* **Đồng bộ Todo List:** Cập nhật trạng thái thi công Daniel Parker đang tiến hành và Eaton hoàn thành thi công trên danh sách Master Todo của trang Schedule.
+* **Triển khai live:** Thực hiện commit và push thay đổi lên GitHub để Cloudflare tự động deploy bản cập nhật mới nhất lên website `happyseedtiling.com.au`.
+
+---
+
+## 📅 HÔM QUA: THỨ BẢY (27/06/2026)
 
 ### 🚀 1. ĐỒNG BỘ LỊCH TRÌNH VÀ TIẾN ĐỘ THI CÔNG TRÊN WEBSITE
 * **Đồng bộ ngày hiện tại:** Dời mốc chỉ báo "Hôm nay 📍" từ ngày 26/06 sang ngày 27/06/2026 trên cả hai bản `calendar.html` (root và source) để phản ánh đúng thời gian thực.
