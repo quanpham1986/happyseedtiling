@@ -3,7 +3,16 @@
 
 ---
 
-## 📅 HÔM NAY: THỨ HAI (29/06/2026)
+## 📅 HÔM NAY: THỨ BA (30/06/2026)
+
+### 🚀 1. ĐỒNG BỘ LỊCH TRÌNH VÀ TIẾN ĐỘ THI CÔNG TRÊN WEBSITE
+* **Đồng bộ ngày hiện tại:** Dời mốc chỉ báo "Hôm nay 📍" từ ngày 29/06 sang ngày 30/06/2026 trên cả hai bản `calendar.html` (root và source) để phản ánh đúng thời gian thực.
+* **Cập nhật tài liệu Eaton (Mid City):** Chuyển trạng thái dự án Eaton sang **"HOÀN THÀNH ✅"** trong hồ sơ công trình và cập nhật thống kê chi phí quyết toán vật tư thực tế bao gồm các hóa đơn từ Bunnings, Tiles Plus và Tile Empire (Tổng vật tư: $2,179.58 + 15% Handling Fee = $2,506.52 GST Incl.).
+* **Triển khai live:** Thực hiện commit và push thay đổi lên GitHub để Cloudflare tự động deploy bản cập nhật mới nhất lên website `happyseedtiling.com.au`.
+
+---
+
+## 📅 HÔM QUA: THỨ HAI (29/06/2026)
 
 ### 🚀 1. ĐỒNG BỘ LỊCH TRÌNH VÀ TIẾN ĐỘ THI CÔNG TRÊN WEBSITE
 * **Đồng bộ ngày hiện tại:** Dời mốc chỉ báo "Hôm nay 📍" từ ngày 27/06 sang ngày 29/06/2026 trên cả hai bản `calendar.html` (root và source) để phản ánh đúng thời gian thực.

@@ -1,4 +1,4 @@
-# 📅 Lịch Làm Việc & Thi Công (Cập Nhật Ngày 27/06/2026)
+# 📅 Lịch Làm Việc & Thi Công (Cập Nhật Ngày 30/06/2026)
 
 ### 🏗️ LỊCH TRÌNH THI CÔNG NGẮN HẠN
 
