@@ -4,7 +4,7 @@
 - **Đơn vị:** Mid City Group (Bảo hiểm)
 - **Mã công việc (Job No):** 69271
 - **Địa chỉ:** 23 Cleveland Bay Avenue, Eaton WA 6232
-- **Trạng thái:** HOÀN THÀNH ✅
+- **Trạng thái:** ĐANG HOÀN THIỆN (Cần quay lại 1-2 ngày) ⏳
 
 ---
 
@@ -17,8 +17,8 @@
 ---
 
 ## 📅 TIẾN ĐỘ & LỊCH TRÌNH
-- **Lịch thi công chính thức:** **20/06/2026 – 27/06/2026** (Được ưu tiên đẩy lên làm sớm)
-- **Trạng thái lịch:** Đã hoàn thành (20/06 - 27/06)
+- **Lịch thi công chính thức:** **20/06/2026 – 27/06/2026** (Đang hoàn thiện nốt các hạng mục còn lại)
+- **Trạng thái lịch:** Cần quay lại 1-2 ngày để bàn giao dứt điểm.
 
 ---
 

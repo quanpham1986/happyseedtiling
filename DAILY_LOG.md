@@ -3,7 +3,16 @@
 
 ---
 
-## 📅 HÔM NAY: THỨ BA (30/06/2026)
+## 📅 HÔM NAY: THỨ TƯ (01/07/2026)
+
+### 🚀 1. ĐỒNG BỘ LỊCH TRÌNH VÀ TIẾN ĐỘ THI CÔNG TRÊN WEBSITE
+* **Đồng bộ ngày hiện tại:** Dời mốc chỉ báo "Hôm nay 📍" từ ngày 30/06 sang ngày 01/07/2026 trên cả hai bản `calendar.html` (root và source) để phản ánh đúng thời gian thực.
+* **Thay đổi tháng hiển thị mặc định:** Cập nhật mặc định tháng hiển thị trên tab lịch sang tháng 07/2026 (July 2026 active) nhằm mang lại trải nghiệm xem lịch tối ưu nhất cho sếp.
+* **Triển khai live:** Thực hiện commit và push thay đổi lên GitHub để Cloudflare tự động deploy bản cập nhật mới nhất lên website `happyseedtiling.com.au`.
+
+---
+
+## 📅 HÔM QUA: THỨ BA (30/06/2026)
 
 ### 🚀 1. ĐỒNG BỘ LỊCH TRÌNH VÀ TIẾN ĐỘ THI CÔNG TRÊN WEBSITE
 * **Đồng bộ ngày hiện tại:** Dời mốc chỉ báo "Hôm nay 📍" từ ngày 29/06 sang ngày 30/06/2026 trên cả hai bản `calendar.html` (root và source) để phản ánh đúng thời gian thực.
