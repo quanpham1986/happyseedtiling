@@ -54,5 +54,19 @@
     "timestamp": "2026-06-19 14:05:00",
     "notes": "Sếp Quân gặp tại Bunnings ngày 19/06/2026. Jeff khuyên sếp nên làm trọn gói Bathroom Renovation. Sếp nhắn tin cảm ơn và xin email để gửi Capability Statement & Website.",
     "next_action": "Chờ Jeff cung cấp email để gửi Capability Statement."
+  },
+  {
+    "id": "lead_005",
+    "name": "Susan",
+    "title": "Private Owner",
+    "company": "Private Homeowner",
+    "phone": "0423 852 318",
+    "email": "cdavis@live.com.au",
+    "status": "Lead Received / Quote Prepared",
+    "source": "Direct SMS Inquiry",
+    "date_added": "2026-07-01",
+    "timestamp": "2026-07-01 21:45:00",
+    "notes": "Khách hàng Susan gửi yêu cầu báo giá lát sàn chính (130m2 tính phủ bì bù hao hụt cắt góc) và 18 bậc cầu thang thẳng trong nhà. Sử dụng keo dán gạch Mono Flex và keo chà ron Ardex FD. Nẹp viền cầu thang do khách cung cấp. Có tùy chọn lát cầu thang ngoài trời (14 bậc, rộng 1.8m giá $250/bậc).",
+    "next_action": "Chờ Sếp Quân duyệt và liên hệ gửi báo giá nháp cho Susan."
   }
 ]

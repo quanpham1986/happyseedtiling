@@ -3,7 +3,16 @@
 
 ---
 
-## 📅 HÔM NAY: THỨ TƯ (01/07/2026)
+## 📅 HÔM NAY: THỨ NĂM (02/07/2026)
+
+### 🚀 1. ĐỒNG BỘ LỊCH TRÌNH VÀ TIẾN ĐỘ THI CÔNG TRÊN WEBSITE
+* **Đồng bộ ngày hiện tại:** Dời mốc chỉ báo "Hôm nay 📍" từ ngày 01/07 sang ngày 02/07/2026 trên cả hai bản `calendar.html` (root và source) để phản ánh đúng thời gian thực.
+* **Cập nhật Lead mới:** Tích hợp khách hàng **Susan (Bunbury)** (Lát 130m² sàn & 18 bậc cầu thang tại 5c Macnish Close) vào danh sách thi công chờ phản hồi (TBD Lead) và bảng việc cần làm khẩn cấp (High Priority Todo).
+* **Triển khai live:** Thực hiện commit và push thay đổi lên GitHub để Cloudflare tự động deploy bản cập nhật mới nhất lên website `happyseedtiling.com.au`.
+
+---
+
+## 📅 HÔM QUA: THỨ TƯ (01/07/2026)
 
 ### 🚀 1. ĐỒNG BỘ LỊCH TRÌNH VÀ TIẾN ĐỘ THI CÔNG TRÊN WEBSITE
 * **Đồng bộ ngày hiện tại:** Dời mốc chỉ báo "Hôm nay 📍" từ ngày 30/06 sang ngày 01/07/2026 trên cả hai bản `calendar.html` (root và source) để phản ánh đúng thời gian thực.

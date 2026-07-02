@@ -8,6 +8,7 @@
 - [x] **Hóa đơn cô Mree (Đợt 1):** Làm hóa đơn cho cô Mree (Laundry Floor xong và đã xuất Hnry) ✅
 - [ ] **Báo giá Brad:** Soạn báo giá cho anh Brad (Khách hàng cũ).
 - [ ] **Báo giá khách sáng 25/05:** Soạn báo giá cho khách hàng vừa đi khảo sát thực tế sáng nay.
+- [ ] **Báo giá Susan (Bunbury):** Soạn & gửi báo giá nháp 130m² sàn chính & 18 bậc cầu thang ($16,300 + GST) tại 5c Macnish Close.
 - [x] **Báo giá Neal Smith (Eaton):** Soạn báo giá / Hẹn ngày khảo sát cho anh Neal Smith (27 Polwarth Circuit, Eaton) ✅ (Đã soạn & gửi báo giá chính thức ngày 26/05!)
 - [x] **Báo giá Paul Murphy (Peppy Beach):** Soạn & gửi báo giá chính thức 4 phòng wet areas ($16,677.30 Excl. GST) ngày 02/06 ✅ (Chờ khách chốt lịch thi công cuối tháng 7!)
 - [x] **Báo giá Mark (Myalup):** Ban công 19.44 m² - Đã soạn & gửi báo giá nhân công $3,065 + GST (23/06). Chờ khách chốt. ✅
@@ -107,6 +108,7 @@
 - [ ] **Paul Murphy (Peppy Beach):** Cải tạo 4 wet areas (27/07 - 31/07) ⏳
 - [ ] **Mark (Myalup):** Ốp lát ban công 19.44 m² (Quoted) ⏳
 - [ ] **Sara Ward (Millbridge):** Sửa chữa chống thấm & ốp lát vòi sen (Lead) ⏳
+- [ ] **Susan (Bunbury):** Lát sàn chính 130m² & 18 bậc cầu thang (Lead) ⏳
 
 ---
 

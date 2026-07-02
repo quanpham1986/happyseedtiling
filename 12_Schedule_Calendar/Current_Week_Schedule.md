@@ -47,6 +47,7 @@
 - Dự án **Paul Murphy (Peppy Beach)** (Tentative) - Cải tạo 4 wet areas. Đã gửi báo giá chính thức ($16,677.30 Excl. GST).
 
 **TBD (Chờ khách phản hồi):**
+- Dự án **Susan (Bunbury)** (Lead) - Ốp lát sàn chính (130m²) & 18 bậc cầu thang trong nhà. Đang chờ duyệt báo giá nháp ($16,300 + GST).
 - Dự án **Mark (Myalup)** (Tentative) - Ốp lát ban công 19.44 m² (nhân công $3,065 + GST). Đã gửi báo giá 23/06.
 - Dự án **Sara Ward (Millbridge)** (Lead) - Cải tạo khu vòi sen thấm nước. Đang chờ hẹn ngày khảo sát.
 
