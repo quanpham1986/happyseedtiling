@@ -3,7 +3,15 @@
 
 ---
 
-## 📅 HÔM NAY: THỨ BẢY (04/07/2026)
+## 📅 HÔM NAY: CHỦ NHẬT (05/07/2026)
+
+### 🚀 1. ĐỒNG BỘ LỊCH TRÌNH VÀ TIẾN ĐỘ THI CÔNG TRÊN WEBSITE
+* **Đồng bộ ngày hiện tại:** Dời mốc chỉ báo "Hôm nay 📍" từ ngày 04/07 sang ngày 05/07/2026 trên cả hai bản `calendar.html` (root và source) để phản ánh đúng thời gian thực.
+* **Triển khai live:** Thực hiện commit và push thay đổi lên GitHub để Cloudflare tự động deploy bản cập nhật mới nhất lên website `happyseedtiling.com.au`.
+
+---
+
+## 📅 HÔM QUA: THỨ BẢY (04/07/2026)
 
 ### 🚀 1. ĐỒNG BỘ LỊCH TRÌNH VÀ TIẾN ĐỘ THI CÔNG TRÊN WEBSITE
 * **Đồng bộ ngày hiện tại:** Dời mốc chỉ báo "Hôm nay 📍" từ ngày 03/07 sang ngày 04/07/2026 trên cả hai bản `calendar.html` (root và source) để phản ánh đúng thời gian thực.
